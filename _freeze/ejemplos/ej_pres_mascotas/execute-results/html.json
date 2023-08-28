@@ -1,0 +1,14 @@
+{
+  "hash": "aca8c0d049919729bc4241d5adb45c0e",
+  "result": {
+    "markdown": "---\ntitle: \"Untitled\"\nformat: revealjs\neditor: visual\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nmascotas <- read.csv(\"https://raw.githubusercontent.com/biofreelancer/public_datasets/main/Rgym/mascotas.csv\")\n```\n:::\n\n\n\n## Mascotas en México por entidad federativa\n\nMascotas Número de mascotas por entidad federativa, según el tipo de mascota. Fuente: Instituto Nacional de Estadística y Geografía (Encuesta Nacional de Bienestar Autorreportado (ENBIARE) 2021).\n\nCompilado por I. Aguilar.\n\n## Cifras totales\n\nTodo\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsum(mascotas$Total) \n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 79977353\n```\n:::\n:::\n\n\n\nGatos\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsum(mascotas$Perro) \n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 43756372\n```\n:::\n:::\n\n\n\n# Nuevo tema {background-color=\"yellow\"}\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

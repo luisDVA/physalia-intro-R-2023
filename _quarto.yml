@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Introducción práctica a la programación en R"
+  sidebar:
+    background: primary
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/luisDVA/physalia-intro-R-2023
+        text: GitHub
+    style: docked
+    contents:
+      - href: index.qmd
+        text: Inicio
+      - href: temario.qmd
+        text: Temario y cronograma
+      - href: materiales.qmd
+        text: Materiales
+  page-footer:
+    left: "Página creada con [Quarto](https://quarto.org/)."
+    right: "Luis D. Verde Arregoitia - 2023"
+
+
+format:
+  html:
+    theme: darkly
+    fontsize: 1.3em
+    toc: true
+
+execute:
+  freeze: auto
+

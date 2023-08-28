@@ -1,0 +1,31 @@
+---
+title: "Untitled"
+format: revealjs
+editor: visual
+---
+
+```{r}
+mascotas <- read.csv("https://raw.githubusercontent.com/biofreelancer/public_datasets/main/Rgym/mascotas.csv")
+```
+
+## Mascotas en México por entidad federativa
+
+Mascotas Número de mascotas por entidad federativa, según el tipo de mascota. Fuente: Instituto Nacional de Estadística y Geografía (Encuesta Nacional de Bienestar Autorreportado (ENBIARE) 2021).
+
+Compilado por I. Aguilar.
+
+## Cifras totales
+
+Todo
+
+```{r}
+sum(mascotas$Total) 
+```
+
+Gatos
+
+```{r}
+sum(mascotas$Perro) 
+```
+
+# Nuevo tema {background-color="yellow"}

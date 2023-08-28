@@ -1,0 +1,49 @@
+---
+title: "Temario y cronograma"
+toc-title: Contenido 
+---
+
+## Día 1. Introducción
+
+Orientación general sobre la historia del lenguaje, sus fundamentos, y el uso de las funciones más importantes.
+
+- Ventajas de trabajar con el entorno interactivo RStudio
+- Organización de proyectos
+    - El entorno de trabajo
+    - Directorios rutas, y buenas prácticas para nombrar objetos y archivos
+- Scripts y la importancia de trabajar con código fuente
+- Importando archivos a R
+- Paquetes que extienden las capacidades de R
+
+ 
+## Día 2. Preparación de datos
+
+Introducción a las estructuras generales necesarias para poder manejar y visualizar datos, y los pasos a seguir para importar y reestructurar tablas y archivos.
+
+
+- Estructuras adecuadas para manejo de datos (datos ordenados o ‘tidy data’)
+- Generar subconjuntos de datos
+- Resumir datos agrupando por variables
+- Exportar datos a formatos comunes
+
+ 
+## Día 3. Visualización de datos
+
+Principios básicos de visualización  
+
+- Elementos fundamentales de un gráfico
+- Uso de colores y formas para asegurar una representación visual efectiva
+- Modificar la apariencia de cada uno de los elementos gráficos
+- Exportar figuras de alta calidad para publicaciones, reportes, o presentaciones
+
+ 
+## Día 4. Eficiencia al programar y principios de reproducibilidad
+
+Herramientas para operaciones iterativas (aplicar una función a múltiples objetos sin repetir código) y tareas repetitivas
+
+- Escritura de funciones nuevas
+- Resolución de errores
+- Buenas prácticas para colaborar y compartir código
+- Uso de Quarto para combinar texto, código, figuras, y tablas
+
+  

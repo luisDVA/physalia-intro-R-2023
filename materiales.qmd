@@ -1,0 +1,32 @@
+---
+title: "Materiales del curso"
+toc-title: Contenido
+---
+
+## Datos 
+
+Descargar todos los archivos (datos y scripts) para los ejercicios y ejemplos del curso:
+
+🗜️[️[Descargar datos](ejemplos/datoscurso.zip)]{style="font-size: 1.8rem; background-color: #415a77; 	padding: 3px;	border-radius: 6px; text-align: center;"}
+
+## Presentaciones
+
+Estas presentaciones en formato web (HTML) cuentan con un índice de contenidos interactivo (botón en la esquina inferior izquierda).
+
+### Lunes 28
+[Introducción](presentaciones/introduccion.qmd)
+
+### Martes 29
+[Preparación de datos](presentaciones/preparacion.qmd)
+
+### Miércoles 30
+[Visualización de datos](presentaciones/visualizacion.qmd)
+
+### Jueves 31
+[Eficiencia al programar y principios de reproducibilidad](presentaciones/programacion.qmd)
+
+[Documentos con Quarto](presentaciones/quarto.qmd)
+
+### Extra
+[Expresiones regulares](presentaciones/expresiones-regulares.qmd)
+

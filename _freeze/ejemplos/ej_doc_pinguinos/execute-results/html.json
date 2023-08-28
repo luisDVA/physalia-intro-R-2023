@@ -1,0 +1,16 @@
+{
+  "hash": "101c43bf3ca681fe7fc6beb428504352",
+  "result": {
+    "markdown": "---\ntitle: \"Demostración de geom_point\"\nauthor: \"Luis\"\nformat: \n  html:\n    theme: solar\nhighlight-style: dracula\n---\n\n\n## Figura con `geom_point`\n\nLargo de aleta vs masa corporal\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(datos)\nlibrary(ggplot2)\nggplot(pinguinos,aes(largo_aleta_mm,masa_corporal_g))+geom_point()\n```\n\n::: {.cell-output-display}\n![](ej_doc_pinguinos_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\ny aquí hay una imagen\n![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_(Pygoscelis_antarctica)04.jpg/1200px-South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin(Pygoscelis_antarctica)_04.jpg)",
+    "supporting": [
+      "ej_doc_pinguinos_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

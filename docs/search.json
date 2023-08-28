@@ -1,0 +1,2508 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introducción práctica a la programación en R",
+    "section": "",
+    "text": "Este sitio contiene los materiales prácticos y las presentaciones para todos los temas. Se actualizará diariamiente durante la semana del curso."
+  },
+  {
+    "objectID": "index.html#cursos-physalia",
+    "href": "index.html#cursos-physalia",
+    "title": "Introducción práctica a la programación en R",
+    "section": "",
+    "text": "Este sitio contiene los materiales prácticos y las presentaciones para todos los temas. Se actualizará diariamiente durante la semana del curso."
+  },
+  {
+    "objectID": "index.html#imparte",
+    "href": "index.html#imparte",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Imparte:",
+    "text": "Imparte:\nDr. Luis D. Verde Arregoitia"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "temario.html",
+    "href": "temario.html",
+    "title": "Temario y cronograma",
+    "section": "",
+    "text": "Orientación general sobre la historia del lenguaje, sus fundamentos, y el uso de las funciones más importantes.\n\nVentajas de trabajar con el entorno interactivo RStudio\nOrganización de proyectos\n\nEl entorno de trabajo\nDirectorios rutas, y buenas prácticas para nombrar objetos y archivos\n\nScripts y la importancia de trabajar con código fuente\nImportando archivos a R\nPaquetes que extienden las capacidades de R"
+  },
+  {
+    "objectID": "temario.html#día-1.-introducción",
+    "href": "temario.html#día-1.-introducción",
+    "title": "Temario y cronograma",
+    "section": "",
+    "text": "Orientación general sobre la historia del lenguaje, sus fundamentos, y el uso de las funciones más importantes.\n\nVentajas de trabajar con el entorno interactivo RStudio\nOrganización de proyectos\n\nEl entorno de trabajo\nDirectorios rutas, y buenas prácticas para nombrar objetos y archivos\n\nScripts y la importancia de trabajar con código fuente\nImportando archivos a R\nPaquetes que extienden las capacidades de R"
+  },
+  {
+    "objectID": "temario.html#día-2.-preparación-de-datos",
+    "href": "temario.html#día-2.-preparación-de-datos",
+    "title": "Temario y cronograma",
+    "section": "Día 2. Preparación de datos",
+    "text": "Día 2. Preparación de datos\nIntroducción a las estructuras generales necesarias para poder manejar y visualizar datos, y los pasos a seguir para importar y reestructurar tablas y archivos.\n\nEstructuras adecuadas para manejo de datos (datos ordenados o ‘tidy data’)\nGenerar subconjuntos de datos\nResumir datos agrupando por variables\nExportar datos a formatos comunes"
+  },
+  {
+    "objectID": "temario.html#día-3.-visualización-de-datos",
+    "href": "temario.html#día-3.-visualización-de-datos",
+    "title": "Temario y cronograma",
+    "section": "Día 3. Visualización de datos",
+    "text": "Día 3. Visualización de datos\nPrincipios básicos de visualización\n\nElementos fundamentales de un gráfico\nUso de colores y formas para asegurar una representación visual efectiva\nModificar la apariencia de cada uno de los elementos gráficos\nExportar figuras de alta calidad para publicaciones, reportes, o presentaciones"
+  },
+  {
+    "objectID": "temario.html#día-4.-eficiencia-al-programar-y-principios-de-reproducibilidad",
+    "href": "temario.html#día-4.-eficiencia-al-programar-y-principios-de-reproducibilidad",
+    "title": "Temario y cronograma",
+    "section": "Día 4. Eficiencia al programar y principios de reproducibilidad",
+    "text": "Día 4. Eficiencia al programar y principios de reproducibilidad\nHerramientas para operaciones iterativas (aplicar una función a múltiples objetos sin repetir código) y tareas repetitivas\n\nEscritura de funciones nuevas\nResolución de errores\nBuenas prácticas para colaborar y compartir código\nUso de Quarto para combinar texto, código, figuras, y tablas"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#section",
+    "href": "presentaciones/introduccion.html#section",
+    "title": "Introducción práctica a la programación en R",
+    "section": "",
+    "text": "@LuisDVerde\n @LuisDVA\n liomys.mx\n luis@liomys.mx\n\n\nMastozoología, conservación, macroecología\nBiogeografía, mapas con R\nCiencia de datos con R\nInstructor certificado Posit(RStudio) y Carpentries\n\nUsuario desde 2011\n\n‘blogger’ de R desde 2015"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#temas-de-hoy",
+    "href": "presentaciones/introduccion.html#temas-de-hoy",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Temas de hoy",
+    "text": "Temas de hoy\n\nOrganización de proyectos y archivos\n\nBuenas prácticas para nombrar archivos y objetos\n\nTrabajando con rutas\n\nObjetos"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#qué-es",
+    "href": "presentaciones/introduccion.html#qué-es",
+    "title": "Introducción práctica a la programación en R",
+    "section": "¿Qué es ?",
+    "text": "¿Qué es ?\n✍️Software\n\n¿Dialecto de S?\n¿Paquete estadístico?\n¿RStudio?\n¿Lenguaje de programación?\n¿Dispositivo gráfico?"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#section-2",
+    "href": "presentaciones/introduccion.html#section-2",
+    "title": "Introducción práctica a la programación en R",
+    "section": "?",
+    "text": "?\n\n\n✍️🧑‍🎓Ventajas\n\n✍️🧑‍🎓Desventajas"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#este-curso",
+    "href": "presentaciones/introduccion.html#este-curso",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Este curso",
+    "text": "Este curso\n\nInstalaciones locales\nRStudio\nDialecto tidyverse\nEnfoque en código\nPipes\nMateriales web"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#mi-sistema",
+    "href": "presentaciones/introduccion.html#mi-sistema",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Mi sistema",
+    "text": "Mi sistema\n\nR v4.3.1\nRStudio 2023.06.1 “Mountain Hydrangea”\nSin personalizaciones visuales\nLinux Mint 20.3"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#no-es-rstudio",
+    "href": "presentaciones/introduccion.html#no-es-rstudio",
+    "title": "Introducción práctica a la programación en R",
+    "section": " no es RStudio",
+    "text": "no es RStudio\nIDE - Entorno de desarrollo integrado\nHerramientas para facilitar el uso de un lenguaje de programación\n\nEditor de texto que ‘reconoce’ la sintaxis de un lenguaje\nAtajos y herramientas para administrar y ejecutar código\nPestañas y ventanas para organizar código, instancia de R, etc."
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#otras-opciones",
+    "href": "presentaciones/introduccion.html#otras-opciones",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Otras opciones",
+    "text": "Otras opciones\n\nRStudio\n\nEmacs + ESS (https://ess.r-project.org)\n\nvim + Nvim-R: (Turn Vim Into an IDE for R)\n\nVisual Studio + RTVS\nCualquier editor de texto (enviando líneas o selecciones a una instancia de R)"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#section-3",
+    "href": "presentaciones/introduccion.html#section-3",
+    "title": "Introducción práctica a la programación en R",
+    "section": "",
+    "text": "R. Geert van den Berg [SPSS Tutorials]"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#scripts-y-código-fuente",
+    "href": "presentaciones/introduccion.html#scripts-y-código-fuente",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Scripts y código fuente",
+    "text": "Scripts y código fuente\n\n\n\n\nReproducir y modificar pasos\nEncontrar errores\nDocumentar el proceso\nExaminar código ajeno"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#paquetes",
+    "href": "presentaciones/introduccion.html#paquetes",
+    "title": "Introducción práctica a la programación en R",
+    "section": "📦 Paquetes",
+    "text": "📦 Paquetes\n\n\nAl instalar R instalamos:\nbase: las funciones fundamentales de R\n\nlist()\nlog()\ncat() rm() etc…"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#paquetes-1",
+    "href": "presentaciones/introduccion.html#paquetes-1",
+    "title": "Introducción práctica a la programación en R",
+    "section": "📦 Paquetes",
+    "text": "📦 Paquetes\nOtros componentes de R-base:\nutils, stats, datasets, graphics, grDevices, grid, methods, tools, parallel, compiler, splines, tcltk, stats4\nPaquetes ‘recomendados’ (se instalan con R pero no se cargan automáticamente)\nboot, class, cluster, codetools, foreign, KernSmooth, lattice, mgcv, nlme, rpart, survival, MASS, spatial, nnet, Matrix"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#paquetes-adicionales",
+    "href": "presentaciones/introduccion.html#paquetes-adicionales",
+    "title": "Introducción práctica a la programación en R",
+    "section": "📦 Paquetes Adicionales",
+    "text": "📦 Paquetes Adicionales\n\n&gt;19,000 en CRAN (The Comprehensive R Archive Network)\nmuchos más en GitHub, GitLab, Bitbucket, Bioconductor, etc.\n\nSe instalan desde R con:\ninstall.packages() para paquetes de CRAN\n📦 remotes para todos los demás repositorios"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#visita-guiada-por-r-y-rstudio",
+    "href": "presentaciones/introduccion.html#visita-guiada-por-r-y-rstudio",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Visita guiada por R y RStudio",
+    "text": "Visita guiada por R y RStudio\n\nEjecutar R\nEjecutar RStudio\nInstalar algunos paquetes para el curso (si es que no los tienen ya):\n\n\ninstall.packages(\"readxl\")\ninstall.packages(\"fs\")\ninstall.packages(\"here\")"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#sistemas-de-archivos",
+    "href": "presentaciones/introduccion.html#sistemas-de-archivos",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Sistemas de archivos",
+    "text": "Sistemas de archivos\n\n\n Monica Chin (2021)\nFile not Found\n\n Jody Macgregor (2021)\nPC Gamer"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#directorios-rutas-y-nombres",
+    "href": "presentaciones/introduccion.html#directorios-rutas-y-nombres",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Directorios, rutas y nombres",
+    "text": "Directorios, rutas y nombres\n\n\n\n\nGuardar archivos en ubicaciones específicas, con nombres intencionales y útiles\n\nNombres cortos e informativos\nFáciles de ordenar y que cooperen con búsquedas parciales\nAtención con caracteres especiales y espacios"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#nombres",
+    "href": "presentaciones/introduccion.html#nombres",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Nombres",
+    "text": "Nombres\n\n\nOK\nmax_temp \n prec_min_usd\ntemp_mensual\n\nNo tanto\ntemperatura_maximaC2014\nmax\ntemp\n'Precio Mínimo ($) USD'\n'Temperatura/Mes (°F)'\n\n\n\n\n\nJenny Bryan (2015)\nNaming Things"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#nombres-1",
+    "href": "presentaciones/introduccion.html#nombres-1",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Nombres",
+    "text": "Nombres\n\n\nOK\n01_factura-marzo2023.pdf\n02_factura-julio2023.pdf\nms_helechos_20210412.docx\n\nNo tanto\ndescarga5462.pdf\njuliocompraluis.pdf\nborrador.docx\n\n\n\nEn R los nombres válidos solo pueden llevar letras, números, puntos, y guiones; no pueden comenzar con números"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#esquemas-de-mayúsculasminúsculas-y-espacios",
+    "href": "presentaciones/introduccion.html#esquemas-de-mayúsculasminúsculas-y-espacios",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Esquemas de mayúsculas/minúsculas y espacios",
+    "text": "Esquemas de mayúsculas/minúsculas y espacios\n\ncamelCase - la segunda palabra en adelante con mayúscula, sin espacios\nsnake_case - solo minúsculas, guión bajo entre palabras\nslug-case - solo minúsculas, guión entre palabras"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#organización-de-proyectos",
+    "href": "presentaciones/introduccion.html#organización-de-proyectos",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Organización de proyectos",
+    "text": "Organización de proyectos\nProyecto\nDirectorio con todo los archivos relevantes para algún trabajo\nSeparar:\n📁 Datos (o código para cargarlos desde fuentes remotas)\n📁 Scripts de análisis y/o visualización\n📁 Salidas (figuras, informes, datos intermedios, etc.)\n\n\n\n\n\n\nJenny Bryan (2017)\nProject-oriented workflow\n\nMaëlle Salmon (2021)\nDraw me a project"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#proyectos-en-rstudio",
+    "href": "presentaciones/introduccion.html#proyectos-en-rstudio",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Proyectos en RStudio",
+    "text": "Proyectos en RStudio\n\n\n\n\n\nInstancia de R dedicada\nNavegador apuntando al directorio del proyecto\n\nbotón para regresar al dir. del proyecto\n\nDir. de proyecto establecido como Dir. de Trabajo\n\nrutas relativas al Dir. de Proyecto"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#ejercicio",
+    "href": "presentaciones/introduccion.html#ejercicio",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nCrear un proyecto para el curso en RStudio\n\n\nen alguna ubicación fácil de encontrar (ej. Escritorio)\n“curso-R-2023” como nombre\n\n\nLos proyectos en OneDrive pueden no funcionar correctamente"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#fs",
+    "href": "presentaciones/introduccion.html#fs",
+    "title": "Introducción práctica a la programación en R",
+    "section": "📦 fs",
+    "text": "📦 fs\nTrabajando con el sistema de archivos (cualquier plataforma)\nfs siempre trabaja con rutas ordenadas\n\n‘/’ para delimitar carpetas\n\nSin ‘/’ dobles o extras\n\nCrear directorios\nMover archivos\nCopiar archivos\nCambiar nombres"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#ejercicio-1",
+    "href": "presentaciones/introduccion.html#ejercicio-1",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Ejercicio",
+    "text": "Ejercicio\n\nCrear nuevas carpetas en el directorio del proyecto\n\ndatos\nsalida\nR\n\n\nLos paquetes ya instalados se cargan con la función library()\n\nlibrary(fs)"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#crear-nuevas-carpetas-en-el-directorio-del-proyecto",
+    "href": "presentaciones/introduccion.html#crear-nuevas-carpetas-en-el-directorio-del-proyecto",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Crear nuevas carpetas en el directorio del proyecto",
+    "text": "Crear nuevas carpetas en el directorio del proyecto\n\ndir_create(\"R\")\ndir_create(\"datos\")\ndir_create(\"salida\")\ndir_ls()\n\n\nTodo esto también se puede hacer desde el navegador de RStudio, la terminal, o el explorador del sistema operativo"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#guardar-la-fuente-y-no-el-entorno",
+    "href": "presentaciones/introduccion.html#guardar-la-fuente-y-no-el-entorno",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Guardar la fuente y no el entorno",
+    "text": "Guardar la fuente y no el entorno\n\n\n\n\n\nExportar figuras y resultados a archivos\nEvitar rm(list = ls()).\n‘Hoja en blanco’ & reiniciar R seguido\n\n\n\nJenny Bryan & Jim Hester (2020)\nWhat they forgot to teach you about R\nJenny Bryan (2018)\nZen And The aRt Of Workflow Maintenance"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#hoja-en-blanco-blank-slate",
+    "href": "presentaciones/introduccion.html#hoja-en-blanco-blank-slate",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Hoja en blanco (blank slate)",
+    "text": "Hoja en blanco (blank slate)\n\n\nNo se guarda el espacio de trabajo a un archivo .Rdata\nNo se carga el espacio de trabajo desde un archivo .Rdata al arrancar R"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#reiniciar-r",
+    "href": "presentaciones/introduccion.html#reiniciar-r",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Reiniciar R",
+    "text": "Reiniciar R\nCtrl+Shift+F10\n(Windows y Linux)\nCommand+Shift+F10\n(Mac)"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#here-y-rutas-relativas",
+    "href": "presentaciones/introduccion.html#here-y-rutas-relativas",
+    "title": "Introducción práctica a la programación en R",
+    "section": "📦 here y rutas relativas",
+    "text": "📦 here y rutas relativas\nF:\\PC de Luis\\ruta\\que\\solo\\tengo\\mi-proyecto\\analisis\\script1.R\nTrabajemos en relación a la raíz del proyecto con la función here()\n\nresuelve cuál es la raíz del proyecto\nconstruye rutas portátiles\ngenera rutas absolutas (comienzan con /, C:\\ o \\\\)\n\n\n\nOde to the here package (2018)"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#section-6",
+    "href": "presentaciones/introduccion.html#section-6",
+    "title": "Introducción práctica a la programación en R",
+    "section": "",
+    "text": "Si la raíz del proyecto es mi-proyecto\n\nhere(\"analisis\",\"script1.R\")\n\nconstruye:\nF:\\PC de Luis\\ruta\\que\\solo\\tengo\\mi-proyecto\\analisis\\script1.R"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#importando-archivos-tablas",
+    "href": "presentaciones/introduccion.html#importando-archivos-tablas",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Importando archivos (tablas)",
+    "text": "Importando archivos (tablas)\n\nCon el botón “Import Dataset”\nCon alguna función read\n\n\nR for Epidemiology - Cannell & Livingstone"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#readr-y-readxl",
+    "href": "presentaciones/introduccion.html#readr-y-readxl",
+    "title": "Introducción práctica a la programación en R",
+    "section": "readr y readxl",
+    "text": "readr y readxl\nPaquetes adicionales para importar datos rectangulares desde archivos de texto y hojas de cálculo\n\nMenos errores al importar\nMayor flexibilidad al leer archivos\nLectura más rápida\nFunciones adicionales para limpiar los valores en las columnas"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#ejercicio-2",
+    "href": "presentaciones/introduccion.html#ejercicio-2",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nImportar una tabla a R desde un archivo"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#principios-de-programación-en-r",
+    "href": "presentaciones/introduccion.html#principios-de-programación-en-r",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Principios de programación en R",
+    "text": "Principios de programación en R\n\nTodo lo que existe es un objeto \nTodo lo que ocurre lo hace una función\n(Las funciones son objetos) \nLas funciones (generalmente) viven en paquetes"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#objetos",
+    "href": "presentaciones/introduccion.html#objetos",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Objetos",
+    "text": "Objetos\n\nTablas con filas y columnas\nModelos\nListas\nGráficos\n\n\nTodos los objetos tienen clases y atributos y hay distintas formas de crearlos"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#section-7",
+    "href": "presentaciones/introduccion.html#section-7",
+    "title": "Introducción práctica a la programación en R",
+    "section": "",
+    "text": "mi_tabla &lt;- read.csv(file = \"mi_ruta/mi-archivo.csv\",\n                     header = TRUE) \n\nmi_tabla - objeto que creamos\nread.csv() - función para leer archivos de texo\nfile = \"mi_ruta/mi-archivo.csv\" - ruta del archivo\nheader = TRUE argumento adicional (especifica si hay encabezado)"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#vectores-1",
+    "href": "presentaciones/introduccion.html#vectores-1",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Vectores",
+    "text": "Vectores\nNúmeros\n\n\nc(1,2,3,4)\n\n[1] 1 2 3 4\n\n\n\n\n\n\nc(22.1,0.006,4.1)\n\n[1] 22.100  0.006  4.100"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#vectores-2",
+    "href": "presentaciones/introduccion.html#vectores-2",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Vectores",
+    "text": "Vectores\nCaracteres\n\n\nc(\"perro\",\"gato\",\"rata\",\"B\")\n\n[1] \"perro\" \"gato\"  \"rata\"  \"B\""
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#vectores-3",
+    "href": "presentaciones/introduccion.html#vectores-3",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Vectores",
+    "text": "Vectores\nLógicos (verdadero/falso)\n\n\nc(TRUE,FALSE,FALSE,FALSE,TRUE)\n\n[1]  TRUE FALSE FALSE FALSE  TRUE"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#creando-objetos",
+    "href": "presentaciones/introduccion.html#creando-objetos",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Creando objetos",
+    "text": "Creando objetos\n\n\nx &lt;- c(1, 2, 3)\n\n\nFunción c() para juntar elementos en un vector\n\n\nx &lt;- c(1,2,3)\ny &lt;- c(\"a\",\"G\",\"h\")\n\n\n\n\nx\n\n[1] 1 2 3\n\ny\n\n[1] \"a\" \"G\" \"h\""
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#los-objetos-tienen-clases",
+    "href": "presentaciones/introduccion.html#los-objetos-tienen-clases",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Los objetos tienen clases",
+    "text": "Los objetos tienen clases\n\n\nclass(x)\n\n[1] \"numeric\"\n\nclass(y)\n\n[1] \"character\""
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#los-vectores-solo-pueden-tener-objetos-de-la-misma-clase",
+    "href": "presentaciones/introduccion.html#los-vectores-solo-pueden-tener-objetos-de-la-misma-clase",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Los vectores solo pueden tener objetos de la misma clase",
+    "text": "Los vectores solo pueden tener objetos de la misma clase\n\n\nc(1,\"a\",2)\n\n[1] \"1\" \"a\" \"2\"\n\n\n\nAl combinar caracteres y números hay conversión automática"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#vectores-numéricos",
+    "href": "presentaciones/introduccion.html#vectores-numéricos",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Vectores numéricos",
+    "text": "Vectores numéricos"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#factores",
+    "href": "presentaciones/introduccion.html#factores",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Factores",
+    "text": "Factores\n\n\n\n\n\nRepresentan datos categóricos\nLas etiquetas de cada valor se conocen como niveles, que pueden o no llevar un orden específico\nCrear con factor()"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#factores-1",
+    "href": "presentaciones/introduccion.html#factores-1",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Factores",
+    "text": "Factores\n\n\nfactor(c(\"perro\",\"gato\",\"ave\",\"ninguno\",\n         \"perro\",\"ninguno\",\"perro\",\"perro\",\n         \"gato\",\"ave\",\"perro\"))\n\n [1] perro   gato    ave     ninguno perro   ninguno perro   perro   gato   \n[10] ave     perro  \nLevels: ave gato ninguno perro"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#dos-o-más-vectores-del-mismo-largo",
+    "href": "presentaciones/introduccion.html#dos-o-más-vectores-del-mismo-largo",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Dos o más vectores del mismo largo…",
+    "text": "Dos o más vectores del mismo largo…\n\n\n\n\n\n¡Data frame!\n\nObjeto tabular con filas y columnas\nPuede almacenar objetos de distintas clases en las columnas\nNombres para cada columna"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#data-frames",
+    "href": "presentaciones/introduccion.html#data-frames",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Data frames",
+    "text": "Data frames\nSe crean importando un archivo tabular o con data.frame()\n\n\nmi_tabla &lt;- \ndata.frame(id=c(\"rana\",\"pez\",\"nutria\",\"gusano\"),\n           ind_g=c(12,15,13,10),\n           listo=c(TRUE,TRUE,FALSE,TRUE))\n\n\n\ncada vector es una columna\nnombres de columnas sin comillas\nmismo largo para todos los vectores"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#section-8",
+    "href": "presentaciones/introduccion.html#section-8",
+    "title": "Introducción práctica a la programación en R",
+    "section": "",
+    "text": "Vectores\n\nListas\n\n\nTablas"
+  },
+  {
+    "objectID": "materiales.html",
+    "href": "materiales.html",
+    "title": "Materiales del curso",
+    "section": "",
+    "text": "Descargar todos los archivos (datos y scripts) para los ejercicios y ejemplos del curso:\n🗜️️Descargar datos"
+  },
+  {
+    "objectID": "materiales.html#datos",
+    "href": "materiales.html#datos",
+    "title": "Materiales del curso",
+    "section": "",
+    "text": "Descargar todos los archivos (datos y scripts) para los ejercicios y ejemplos del curso:\n🗜️️Descargar datos"
+  },
+  {
+    "objectID": "materiales.html#presentaciones",
+    "href": "materiales.html#presentaciones",
+    "title": "Materiales del curso",
+    "section": "Presentaciones",
+    "text": "Presentaciones\nEstas presentaciones en formato web (HTML) cuentan con un índice de contenidos interactivo (botón en la esquina inferior izquierda).\n\nLunes 28\nIntroducción\n\n\nMartes 29\nPreparación de datos\n\n\nMiércoles 30\nVisualización de datos\n\n\nJueves 31\nEficiencia al programar y principios de reproducibilidad\nDocumentos con Quarto\n\n\nExtra\nExpresiones regulares"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#principios-de-visualización",
+    "href": "presentaciones/visualizacion.html#principios-de-visualización",
+    "title": "Visualización de datos",
+    "section": "Principios de visualización",
+    "text": "Principios de visualización\n\nIntroducción a ggplot2\n\nRepresentaciones gráficas de información\n\nPersonalización de elementos gráficos (ejes, colores, fuentes, leyendas)\n\nExportando gráficos de alta resolución\nPreparación de figuras científicas\n\nFiguras complejas"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#paquetes-para-hoy",
+    "href": "presentaciones/visualizacion.html#paquetes-para-hoy",
+    "title": "Visualización de datos",
+    "section": "Paquetes para hoy",
+    "text": "Paquetes para hoy\nPor si no los tienen:\n\n\ninstall.packages(\"ggplot2\")\ninstall.packages(\"ggthemes\") \ninstall.packages(\"ragg\")\ninstall.packages(\"patchwork\")\ninstall.packages(\"forcats\")"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section",
+    "href": "presentaciones/visualizacion.html#section",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "The Grammar of Graphics\nWilkinson (1999, 2005)\nA Layered Grammar of Graphics\nHadley Wickham (2007)"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-1",
+    "href": "presentaciones/visualizacion.html#section-1",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "Una gramática puede ayudar a construir oraciones diferentes con una pequeña cantidad de verbos, sustantivos y adjetivos, en lugar de memorizar cada oración específica. Una pequeña cantidad de los componentes básicos de ggplot2 y de su gramática puede crear cientos de gráficos diferentes.\n\nIntroducción a la ciencia de datos\nRafael A. Irizarry (2020)"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#gramática-de-gráficos",
+    "href": "presentaciones/visualizacion.html#gramática-de-gráficos",
+    "title": "Visualización de datos",
+    "section": "Gramática de gráficos",
+    "text": "Gramática de gráficos\n\nModificado de Wickham (2007)"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-3",
+    "href": "presentaciones/visualizacion.html#section-3",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "ggplot(data, aes(x,y)) +\n  geom_point()\n\n\n  ggplot() crea el gráfico\naes() determina los vínculos entre las variables y las propiedades del gráfico\ngeom_* define la capa con la representación visual de los datos"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-4",
+    "href": "presentaciones/visualizacion.html#section-4",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "ggplot(data = lagartijas,     \n  aes(x = largo,y = peso))+\n  geom_point()"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#ejercicio",
+    "href": "presentaciones/visualizacion.html#ejercicio",
+    "title": "Visualización de datos",
+    "section": "Ejercicio",
+    "text": "Ejercicio\n\nranas.csv\n01_armar-plots.R\n\n\n\n\n\n\n\n\n\n\n\nDatos sobre tamaño corporal, frecuencia dominante, y hábitat de 176 especies de ranas, tomados de Muñoz et al. (2020)"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#modificando-elementos-gráficos",
+    "href": "presentaciones/visualizacion.html#modificando-elementos-gráficos",
+    "title": "Visualización de datos",
+    "section": "Modificando elementos gráficos",
+    "text": "Modificando elementos gráficos\n\n\nlabs\nfill\ncolor\nsize\nthemes\nscale_fill_*\nscale_shape_*\nscale_color_*\n\nrótulos para ejes, títulos, subtítulos, etc. colores de rellenos\ncolores de bordes\ntamaño o grueso de elementos\napariencias predefinidas\ncontrol manual sobre mapeos estéticos (colores, rellenos, formas)"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-6",
+    "href": "presentaciones/visualizacion.html#section-6",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "ggplot2 cuenta con valores predeterminados para asignar formas y colores diferentes a diferentes niveles de variables categóricas"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-7",
+    "href": "presentaciones/visualizacion.html#section-7",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "Podemos especificar manualmente las formas y colores para las categorías con un vector que se le da al argumento values\nPara dos categorías con dos niveles c/u:\n\n\naes(x,y, color = var1, shape = var2)+\n scale_color_manual(values=\n                      c('lightskyblue4','blue'))+\n scale_shape_manual(values=c\n                    (20,21))"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#colores",
+    "href": "presentaciones/visualizacion.html#colores",
+    "title": "Visualización de datos",
+    "section": "Colores",
+    "text": "Colores\nnombres HTML"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#colores-1",
+    "href": "presentaciones/visualizacion.html#colores-1",
+    "title": "Visualización de datos",
+    "section": "Colores",
+    "text": "Colores\nCódigos hexagesimales\n\nFree Color Picker (Windows); Gpick (Linux); ColorSlurp (Mac)"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#paletas-de-color",
+    "href": "presentaciones/visualizacion.html#paletas-de-color",
+    "title": "Visualización de datos",
+    "section": "Paletas de color",
+    "text": "Paletas de color\n\n\n\nEspecificar por nombre\n\nDefinir con un vector\n\n\n\n\n\n\n\n\n\n\n🔗 Galería de ejemplos de paletteer\n🔗 Pokepalettes"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-8",
+    "href": "presentaciones/visualizacion.html#section-8",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "El argumento name modifica el título de la leyenda que se genera automáticamente para los mapeos\n\n\naes(x,y, color = var1, shape = var2)+\n    scale_shape_manual(values=c(20,21),\n                       name = 'Variable Dos')+\n    scale_color_manual(values=c('red','blue'), \n                       name= 'Variable Uno')"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#variables-cuantitativas-color",
+    "href": "presentaciones/visualizacion.html#variables-cuantitativas-color",
+    "title": "Visualización de datos",
+    "section": "Variables cuantitativas + color:",
+    "text": "Variables cuantitativas + color:\n\nRampa de colores asignada automáticamente\nDefinir rampa con scale_x_gradient o asignar rampa predeterminada\n\n\n\nggplot(ranas,\n       aes(x=svl, y=freq_dom,\n           fill=svl))+\n  geom_point(size=4,color=\"white\",\n             pch=21)+\n  labs(x=\"Tamaño Corporal (SVL)\",\n       y=\"Frequencia Dominante (Hz)\",\n       title=\"Llamados Ranas\")"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#ejercicio-1",
+    "href": "presentaciones/visualizacion.html#ejercicio-1",
+    "title": "Visualización de datos",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nModificando parámetros gráficos\n\nranas.csv\n02_personalizar-figuras.R"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#temas-apariencias-predeterminadas",
+    "href": "presentaciones/visualizacion.html#temas-apariencias-predeterminadas",
+    "title": "Visualización de datos",
+    "section": "Temas (apariencias predeterminadas)",
+    "text": "Temas (apariencias predeterminadas)\nControlan múltiples aspectos de la apariencia del gŕafico sin alterar los datos.\n\n8 disponibles con ggplot2\n\npaquetes con temas adicionales: ggthemes, artyfarty, hrbrthemes`\n\ncrear tema propio"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#otras-rampas-de-color",
+    "href": "presentaciones/visualizacion.html#otras-rampas-de-color",
+    "title": "Visualización de datos",
+    "section": "Otras rampas de color",
+    "text": "Otras rampas de color\n\nPara poder percibir un valor central y acomodar valores de menor a mayor\n\n\n\n🔗 Fabio Crameri - Scientific Color Maps"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#rampas-de-color-uniformes-perceptualmente",
+    "href": "presentaciones/visualizacion.html#rampas-de-color-uniformes-perceptualmente",
+    "title": "Visualización de datos",
+    "section": "Rampas de color uniformes (perceptualmente)",
+    "text": "Rampas de color uniformes (perceptualmente)\n\n\n \n\nviridis\n\ninstaladas con ggplot2\nusar con scale_x_viridis()\n\nscico\n\ninstaladas con scico\ndivergentes y secuenciales"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#ejercicio-2",
+    "href": "presentaciones/visualizacion.html#ejercicio-2",
+    "title": "Visualización de datos",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nVariables continuas y colores\n\nranas.csv\n03_rampas.R"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#opciones",
+    "href": "presentaciones/visualizacion.html#opciones",
+    "title": "Visualización de datos",
+    "section": "Opciones",
+    "text": "Opciones\n\nCon botón ‘Export’ de RStudio\nCon dispositivos gráficos\nCon ggsave()\n\nFormato: png (preferible), jpg, pdf, etc."
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#exportando-con-dispositivo-gráfico",
+    "href": "presentaciones/visualizacion.html#exportando-con-dispositivo-gráfico",
+    "title": "Visualización de datos",
+    "section": "Exportando con dispositivo gráfico",
+    "text": "Exportando con dispositivo gráfico\n\n\n\n\n\n\n\n\n\nLos gráficos se pueden asignar a objetos en el entorno de trabajo\n\n\n\n\nfigura_ranas &lt;- \nggplot(ranas,\n       aes(x=svl,y=freq_dom,fill=svl))+\n  geom_point(size=4,color=\"white\",pch=21)\n\npng(filename = \"mifigura.png\",\n    width = 10, \n    height = 10,\n    units =\"cm\",\n    res = 200)\nfigura_ranas\ndev.off()"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#dispositivos-gráficos-de-ragg",
+    "href": "presentaciones/visualizacion.html#dispositivos-gráficos-de-ragg",
+    "title": "Visualización de datos",
+    "section": "Dispositivos gráficos de ragg",
+    "text": "Dispositivos gráficos de ragg\n\nMás rápidos y mejor resolución\nDisponibles instalando el paquete ragg\n\n\n\nfigura_ranas &lt;- \nggplot(ranas,aes(x=svl,y=freq_dom,fill=svl))+\n  geom_point(size=4,color=\"white\",pch=21)\n\nragg_png(filename = \"mifigura.png\",\n    width = 10, height = 10,\n    units =\"cm\",\n    res = 200)\nfigura_ranas\ndev.off()"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#ggsave",
+    "href": "presentaciones/visualizacion.html#ggsave",
+    "title": "Visualización de datos",
+    "section": "ggsave()",
+    "text": "ggsave()\n\nUsa ragg si lo encuentra instalado\n\n\n\nggsave(figura_ranas, \n  filename = \"mifigura.png\",\n    width = 10, \n    height = 10,\n    units =\"cm\",\n    dpi = 200)"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#quedó-raro",
+    "href": "presentaciones/visualizacion.html#quedó-raro",
+    "title": "Visualización de datos",
+    "section": "¿Quedó raro?",
+    "text": "¿Quedó raro?\n\nArgumento scale en ggsave() y scaling en dispositivos de ragg para ajustar"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#figuras-multipanel",
+    "href": "presentaciones/visualizacion.html#figuras-multipanel",
+    "title": "Visualización de datos",
+    "section": "Figuras multipanel",
+    "text": "Figuras multipanel"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#funciones-facet",
+    "href": "presentaciones/visualizacion.html#funciones-facet",
+    "title": "Visualización de datos",
+    "section": "Funciones facet()",
+    "text": "Funciones facet()\nfacet_wrap() para separar por una sola variable y ‘envolver’\nfacet_grid() para separar con combinaciones de variables"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#ejercicio-3",
+    "href": "presentaciones/visualizacion.html#ejercicio-3",
+    "title": "Visualización de datos",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nMúltiplos\n\ncafeteria.csv\n04_multipanel.R"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#reordenar-elementos-ejes-paneles",
+    "href": "presentaciones/visualizacion.html#reordenar-elementos-ejes-paneles",
+    "title": "Visualización de datos",
+    "section": "Reordenar elementos (ejes, paneles)",
+    "text": "Reordenar elementos (ejes, paneles)\nOrden alfabético de los niveles de la variable tipo\n\nggplot(cafeteria,aes(carbohidratos,proteina))+\n  geom_point()+facet_wrap(\"tipo\")"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#factores",
+    "href": "presentaciones/visualizacion.html#factores",
+    "title": "Visualización de datos",
+    "section": "Factores",
+    "text": "Factores\n\n\n\nVariables categóricas\nconjunto fijo y conocido de valores posibles\nmuy útiles para ordenar vectores en un orden distinto al alfabético"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#categorías",
+    "href": "presentaciones/visualizacion.html#categorías",
+    "title": "Visualización de datos",
+    "section": "Categorías",
+    "text": "Categorías\n\n\ncafeteria$tipo"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#categorías-output",
+    "href": "presentaciones/visualizacion.html#categorías-output",
+    "title": "Visualización de datos",
+    "section": "Categorías",
+    "text": "Categorías\n\n [1] \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"    \n [6] \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"    \n[11] \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"    \n[16] \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"    \n[21] \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"    \n[26] \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"    \n[31] \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"    \n[36] \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"     \"horneado\"    \n[41] \"horneado\"     \"almuerzo\"     \"almuerzo\"     \"almuerzo\"     \"almuerzo\"    \n[46] \"almuerzo\"     \"almuerzo\"     \"almuerzo\"     \"almuerzo\"     \"individuales\"\n[51] \"individuales\" \"individuales\" \"individuales\" \"individuales\" \"individuales\"\n[56] \"individuales\" \"individuales\" \"individuales\" \"desayuno\"     \"desayuno\"    \n[61] \"desayuno\"     \"desayuno\"     \"desayuno\"     \"desayuno\"     \"desayuno\"    \n[66] \"desayuno\"     \"ensalada\"     \"sandwich\"     \"sandwich\"     \"sandwich\"    \n[71] \"sandwich\"     \"sandwich\"     \"sandwich\"     \"sandwich\"     \"lácteos\"     \n[76] \"lácteos\"      \"lácteos\""
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-11",
+    "href": "presentaciones/visualizacion.html#section-11",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "factor(cafeteria$tipo)"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-11-output",
+    "href": "presentaciones/visualizacion.html#section-11-output",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "[1] horneado     horneado     horneado     horneado     horneado    \n [6] horneado     horneado     horneado     horneado     horneado    \n[11] horneado     horneado     horneado     horneado     horneado    \n[16] horneado     horneado     horneado     horneado     horneado    \n[21] horneado     horneado     horneado     horneado     horneado    \n[26] horneado     horneado     horneado     horneado     horneado    \n[31] horneado     horneado     horneado     horneado     horneado    \n[36] horneado     horneado     horneado     horneado     horneado    \n[41] horneado     almuerzo     almuerzo     almuerzo     almuerzo    \n[46] almuerzo     almuerzo     almuerzo     almuerzo     individuales\n[51] individuales individuales individuales individuales individuales\n[56] individuales individuales individuales desayuno     desayuno    \n[61] desayuno     desayuno     desayuno     desayuno     desayuno    \n[66] desayuno     ensalada     sandwich     sandwich     sandwich    \n[71] sandwich     sandwich     sandwich     sandwich     lácteos     \n[76] lácteos      lácteos     \n7 Levels: almuerzo desayuno ensalada horneado individuales ... sandwich"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-12",
+    "href": "presentaciones/visualizacion.html#section-12",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "levels(factor(cafeteria$tipo))"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-12-output",
+    "href": "presentaciones/visualizacion.html#section-12-output",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "[1] \"almuerzo\"     \"desayuno\"     \"ensalada\"     \"horneado\"     \"individuales\"\n[6] \"lácteos\"      \"sandwich\""
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#factores-1",
+    "href": "presentaciones/visualizacion.html#factores-1",
+    "title": "Visualización de datos",
+    "section": "Factores",
+    "text": "Factores\nLos niveles de un factor se pueden especificar manualmente con un vector en el argumento levels\n\n\nPara cualquier otra manipulación de factores:\nforcats\n\n\n\n\n\nreordenar una variable según los valores de otra\nsuprimir orden alfabético\ninvertir orden de los niveles\nagrupar niveles\netc."
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#ejercicio-4",
+    "href": "presentaciones/visualizacion.html#ejercicio-4",
+    "title": "Visualización de datos",
+    "section": "Ejercicio",
+    "text": "Ejercicio\n\nedad_gateo.csv\n05_reordenar.R\n\n\n\n\n\n\n\n\n\n\nDatos sobre la edad (semanas) de gateo en relación a temperatura y mes de nacimiento. Tomado de Benson (1993)."
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#patchwork",
+    "href": "presentaciones/visualizacion.html#patchwork",
+    "title": "Visualización de datos",
+    "section": "patchwork",
+    "text": "patchwork\n\n\n\n\n\nSímbolo + para acomodar dos gráficos juntos\nSímbolo | para figuras lado a lado\nSímbolo / para apilar figuras\n\n\n\n\nÁlgebra simple para anidar y acomodar elementos\nplot_layout() para controlar la composición\nplot_annotation() para rotular elementos o agregar textos"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#anotaciones",
+    "href": "presentaciones/visualizacion.html#anotaciones",
+    "title": "Visualización de datos",
+    "section": "Anotaciones",
+    "text": "Anotaciones\n\n((grasaCarb/protEnergia)|puntos_ranas)+\n  plot_annotation(title=\"Mi figura de tres elementos\",\n                  subtitle = \"ejemplo de patchwork\",\n                  tag_levels = \"A\")\n\n\ntag_levels genera diferentes secuencias alfabéticas o numéricas para identificar a cada elemento"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#texto-con-formato",
+    "href": "presentaciones/visualizacion.html#texto-con-formato",
+    "title": "Visualización de datos",
+    "section": "Texto con formato",
+    "text": "Texto con formato\nPodemos usar markdown para darle formato al texto que aparece en diferentes elementos de nuestras gráficas, a través de la función element_markdown() del paquete ggtext\nDocumentación del paquete\n\nlibrary(ggtext)\nggplot(cafeteria,aes(carbohidratos,grasa,color=bajo_grasa))+\ngeom_point()+\n  scale_color_discrete(labels=c(\"Chatarra  **Grasienta**\",\"light\"))+\n  theme(legend.text = element_markdown())"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#section-14",
+    "href": "presentaciones/visualizacion.html#section-14",
+    "title": "Visualización de datos",
+    "section": "",
+    "text": "ggplot(cafeteria,aes(carbohidratos,grasa,color=bajo_grasa))+\ngeom_point()+\n  scale_color_discrete(labels=c(\"Chatarra  **Grasienta**\",\"light\"))+\n  theme(legend.text = element_markdown())"
+  },
+  {
+    "objectID": "presentaciones/visualizacion.html#extensiones-para-ggplot2",
+    "href": "presentaciones/visualizacion.html#extensiones-para-ggplot2",
+    "title": "Visualización de datos",
+    "section": "Extensiones para ggplot2",
+    "text": "Extensiones para ggplot2\nTaller LatinR\nGalería oficial de extensiones"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#section",
+    "href": "presentaciones/quarto.html#section",
+    "title": "Creación de documentos con Quarto",
+    "section": "",
+    "text": "Combinando texto, código, y más\n  R 🔁 Word ➡️ Salida a PDF, HTML, etc.\n R ➡️ Salida a PDF, HTML, etc"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#qué-es-markdown",
+    "href": "presentaciones/quarto.html#qué-es-markdown",
+    "title": "Creación de documentos con Quarto",
+    "section": "Qué es Markdown ",
+    "text": "Qué es Markdown \n\nHerramienta/lenguaje para agregar elementos de formato a documentos de texto sin formato\nLegible y sencillo\nTransportable y conveniente"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#y-rmarkdown",
+    "href": "presentaciones/quarto.html#y-rmarkdown",
+    "title": "Creación de documentos con Quarto",
+    "section": "¿… y rmarkdown?",
+    "text": "¿… y rmarkdown?\n\n\n\nFormato de archivo y conjunto de paquetes de apoyo para combinar texto con sintaxis de  con código de R\nCompatible con HTML\nGenera un archivo .md intermedio que se puede procesar para generar archivos en diferentes formatos (PDF, HTML, Word, etc.)"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#quarto",
+    "href": "presentaciones/quarto.html#quarto",
+    "title": "Creación de documentos con Quarto",
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\n\n\nSistema de publicación técnica y científica de código abierto\nLa nueva generación de rmarkdown\nMulti-lenguaje\nMulti-formato\nAmplia documentación\nIncluye aplicación para línea de comandos"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#section-1",
+    "href": "presentaciones/quarto.html#section-1",
+    "title": "Creación de documentos con Quarto",
+    "section": "",
+    "text": "rmarkdown\n\n\n\n\n\nQuarto"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#lo-que-ves-es-lo-que-obtienes-wysiwyg",
+    "href": "presentaciones/quarto.html#lo-que-ves-es-lo-que-obtienes-wysiwyg",
+    "title": "Creación de documentos con Quarto",
+    "section": "Lo que ves es lo que obtienes (WYSIWYG)",
+    "text": "Lo que ves es lo que obtienes (WYSIWYG)"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#separemos-fuente-y-producto",
+    "href": "presentaciones/quarto.html#separemos-fuente-y-producto",
+    "title": "Creación de documentos con Quarto",
+    "section": "Separemos fuente y producto",
+    "text": "Separemos fuente y producto\n\n\n---\ntitle: \"Demostración de geom_point\"\nauthor: \"Luis\"\nformat: \n  html:\n  theme: pulse\nhighlight-style: breeze  \n---\n\n## Figura con `geom_point`\nLargo de aleta vs masa corporal\n``` {{r}}\n#| warning: false \nlibrary(datos)\nlibrary(ggplot2)\nggplot(pinguinos,aes(largo_aleta_mm,masa_corporal_g))+geom_point()\n```"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#documentos-dinámicos",
+    "href": "presentaciones/quarto.html#documentos-dinámicos",
+    "title": "Creación de documentos con Quarto",
+    "section": "Documentos dinámicos",
+    "text": "Documentos dinámicos\nPermiten combinar texto, código, imágenes y resultados en un mismo archivo\n\nDouglas et al. (2022) - An Introduction to R"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#formatos-de-salida",
+    "href": "presentaciones/quarto.html#formatos-de-salida",
+    "title": "Creación de documentos con Quarto",
+    "section": "Formatos de salida",
+    "text": "Formatos de salida\n\n\n      \n\n\n\nBlogs\nPDF\nInformes\nArtículos científicos\n\nPresentaciones\nLibros\nCursos\nNotebooks"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#tengo-quarto",
+    "href": "presentaciones/quarto.html#tengo-quarto",
+    "title": "Creación de documentos con Quarto",
+    "section": "¿Tengo Quarto?",
+    "text": "¿Tengo Quarto?\n\nSe instala automáticamente con RStudio desde la versión v2022.07\nInstalar por separado desde la página de descargas\n\nVersión actual (agosto 2023): v1.3.450\nquarto --version en la terminal para consultar versión instalada"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#formatos-para-texto",
+    "href": "presentaciones/quarto.html#formatos-para-texto",
+    "title": "Creación de documentos con Quarto",
+    "section": "Formatos para texto",
+    "text": "Formatos para texto\nCiertos caracteres se interpretan de manera especial en  y los usamos para especificar formato \n\n\n*cursiva* y **negritas**\nsuperíndices^2^\nsubíndices~2\n~~tachado~~\n`código`\n\ncursiva y negritas\nsuperíndices2\nsubíndices2\ntachado\ncódigo"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#encabezados",
+    "href": "presentaciones/quarto.html#encabezados",
+    "title": "Creación de documentos con Quarto",
+    "section": "Encabezados",
+    "text": "Encabezados\nDelimitan secciones y subsecciones, se interpretan automáticamente para generar tablas de contenidos.\n\n\n\n\n\n\n\nMarkdown\nResultado\n\n\n\n\n # Nivel 1\nNivel 1\n\n\n## Nivel 2\nNivel 2\n\n\n### Nivel 3\nNivel 3\n\n\n#### Nivel 4\nNivel 4"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#imágenes",
+    "href": "presentaciones/quarto.html#imágenes",
+    "title": "Creación de documentos con Quarto",
+    "section": "Imágenes",
+    "text": "Imágenes\nAgregar desde ruta local o desde URL\n![](imagenes/Mila.jpeg)"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#código",
+    "href": "presentaciones/quarto.html#código",
+    "title": "Creación de documentos con Quarto",
+    "section": "Código",
+    "text": "Código\nBloques de código\nInsertar con ctrl + shift + I o con el botón \nLo que está dentro de esta ‘celda’ se ejecuta\n\n```{r}\nsqrt(64)\nlog(1000)\n25*12\n```\n\n[1] 8\n[1] 6.907755\n[1] 300\n\n\n\nEl resultado del código evaluado aparece en el documento de salida"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#bloque-yaml",
+    "href": "presentaciones/quarto.html#bloque-yaml",
+    "title": "Creación de documentos con Quarto",
+    "section": "Bloque YAML",
+    "text": "Bloque YAML\nPreámbulo con los metadatos del documento, para especificar:\n\nOpciones visuales que aplican a todo el documento\nInformación sobre autor, fecha, etc.\nFormato de salida\nSe delimita con --- antes y después\nRelativamente frágil, escribir con atención a espacios"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#ejemplo-1-informe-pingüinos",
+    "href": "presentaciones/quarto.html#ejemplo-1-informe-pingüinos",
+    "title": "Creación de documentos con Quarto",
+    "section": "Ejemplo 1: Informe pingüinos",
+    "text": "Ejemplo 1: Informe pingüinos\n\ncambiar apariencia (theme)\ncambiar resaltado de sintaxis (highlight style)\nesconder código (code-fold, code-tools, code-summary)\nagregar imágenes https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_(Pygoscelis_antarctica)04.jpg/1200px-South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin(Pygoscelis_antarctica)_04.jpg"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#presentaciones",
+    "href": "presentaciones/quarto.html#presentaciones",
+    "title": "Creación de documentos con Quarto",
+    "section": "Presentaciones",
+    "text": "Presentaciones\nQuarto aprovecha el esquema reveal.js para crear presentaciones en formato HTML.\n\nIncluye herramientas para presentar\nDelimitamos diapositivas con --- o con encabezados"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#ejemplo-2-presentación-mascotas-mx",
+    "href": "presentaciones/quarto.html#ejemplo-2-presentación-mascotas-mx",
+    "title": "Creación de documentos con Quarto",
+    "section": "Ejemplo 2: Presentación mascotas MX",
+    "text": "Ejemplo 2: Presentación mascotas MX\n\nRevelar gradualmente listas numeradas y viñetas\nCambiar fondo de diapositivas con atributo {background-color}\nExportar a PDF (E para cambiar a vista de impresión)"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#publicar-documentos",
+    "href": "presentaciones/quarto.html#publicar-documentos",
+    "title": "Creación de documentos con Quarto",
+    "section": "Publicar documentos",
+    "text": "Publicar documentos\n\nCrear cuenta en Quartopub\nPublicar desde la línea de comandos con:\n\n\nquarto publish quarto-pub mi-documento.qmd\n\n\nAdministrar documentos publicados desde el panel de control de Quartopub"
+  },
+  {
+    "objectID": "presentaciones/quarto.html#recursos-útiles",
+    "href": "presentaciones/quarto.html#recursos-útiles",
+    "title": "Creación de documentos con Quarto",
+    "section": "Recursos útiles",
+    "text": "Recursos útiles\n🗐 Pedro Albarrán - Introducción a Quarto\n📃 Meghan Hall - Making Slides in Quarto with reveal.js\n📒 Thomas Mock - Getting Started with Quarto"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#ejemplos",
+    "href": "presentaciones/introduccion.html#ejemplos",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n tablaReptilesNueva\n tabla_reptiles_nueva\n tabla-reptiles-nueva\n tabla.reptiles.nueva\n TABLA_REPTILES_NUEVA"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#importanto-archivos",
+    "href": "presentaciones/introduccion.html#importanto-archivos",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Importanto archivos",
+    "text": "Importanto archivos\nNecesitamos:\n\nalguna función para importar\nruta del archivo\nnombre del objeto que vamos a crear a partir del archivo\nargumentos adicionales para controlar la lectura del archivo"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#hojas-de-cálculo",
+    "href": "presentaciones/introduccion.html#hojas-de-cálculo",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Hojas de cálculo",
+    "text": "Hojas de cálculo\n\n~ 1000,000,000 usuarios a nivel mundial\nFormatos xlsx, xls, ods y en línea (Google sheets)\n\n\n\n\n\n\nRegistro de préstamos 1593\n\n\n\n\n\n\nVisiCalc\n\n\n\n\n\nPodemos trabajar en R con todos estos formatos"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#section-9",
+    "href": "presentaciones/introduccion.html#section-9",
+    "title": "Introducción práctica a la programación en R",
+    "section": "",
+    "text": "mi_tabla\n\n      id ind_g listo\n1   rana    12  TRUE\n2    pez    15  TRUE\n3 nutria    13 FALSE\n4 gusano    10  TRUE"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#pipes",
+    "href": "presentaciones/preparacion.html#pipes",
+    "title": "Preparación de datos",
+    "section": "Pipes",
+    "text": "Pipes\n\n\n\nMano izquiera\n(LHS)\n\noperador ‘pipe’\n%&gt;%\nde 📦 magrittr\n|&gt; en R v &gt;= 4.1.0\n\nMano derecha\n(RHS)\n\n\n\n\nToma un objeto a la izquerda del operador y lo inserta como argumento en la función que esté a su derecha\n* Por defecto lo que esté a la izquierda del ‘pipe’ se inserta como el primer argumento de la función"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#código-anidado",
+    "href": "presentaciones/preparacion.html#código-anidado",
+    "title": "Preparación de datos",
+    "section": "Código anidado",
+    "text": "Código anidado\n\n\n\nnotas &lt;- c(7,8,8,10,6,9,5,9,8)\n\nround(mean(notas), digits = 2)\n\n[1] 7.78"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#objetos-intermedios",
+    "href": "presentaciones/preparacion.html#objetos-intermedios",
+    "title": "Preparación de datos",
+    "section": "Objetos intermedios",
+    "text": "Objetos intermedios\n\n\n\nnotas_promedio &lt;- mean(notas)\n\nnotas_promedio_rd &lt;- \n  round(notas_promedio,\n           digits = 2)\n\nnotas_promedio_rd\n\n[1] 7.78"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#pipes-1",
+    "href": "presentaciones/preparacion.html#pipes-1",
+    "title": "Preparación de datos",
+    "section": "Pipes",
+    "text": "Pipes\n\nReducen la necesidad de guardar resultados intermedios o de anidar código\nCódigo más fácil de leer\nMás fácil quitar o agregar pasos a la secuencia\n\n\nInsertamos con ctrl + shift + M\n\n\n\nAdolfo Álvarez (2021)\nThe (updated) history of the pipe operator in R"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#pipes-2",
+    "href": "presentaciones/preparacion.html#pipes-2",
+    "title": "Preparación de datos",
+    "section": "Pipes",
+    "text": "Pipes\n\nReducen la necesidad de guardar resultados intermedios o de anidar código\nCódigo más fácil de leer\nMás fácil quitar o agregar pasos a la secuencia\n\n\nInsertamos con ctrl + shift + M\n\n\n\nAdolfo Álvarez (2021)\nThe (updated) history of the pipe operator in R"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#tidyverse",
+    "href": "presentaciones/preparacion.html#tidyverse",
+    "title": "Preparación de datos",
+    "section": "tidyverse",
+    "text": "tidyverse\n\n\n\n\n\n… una colección de paquetes de R diseñados para ciencia de datos. Todos los paquetes comparten una filosofía de diseño, gramática, y estructuras de datos. Su objetivo principal es de ‘facilitar una conversación sobre datos entre un humano y su computador’\n\n\n\n\n\nWickham et al. (2019)\nWelcome to the tidyverse\nhttps://www.tidyverse.org/"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#tidyverse-1",
+    "href": "presentaciones/preparacion.html#tidyverse-1",
+    "title": "Preparación de datos",
+    "section": "tidyverse",
+    "text": "tidyverse\n\nPara tareas comunes con datos: importar archivos, limpiar datos, transformar, visualizar, o programar nuevas funciones.\nDiseñado para facilitar su aprendizaje y que los usuarios vayan aprendiendo más funciones conforme interactuen con más elementos de este ‘ecosistema’.\n\n\n\nÇetinkaya-Rundel et al. (2021)\nAn educator’s perspective of the tidyverse"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#tibbles-tibls",
+    "href": "presentaciones/preparacion.html#tibbles-tibls",
+    "title": "Preparación de datos",
+    "section": "tibbles (/tibls/)",
+    "text": "tibbles (/tibls/)\nModernizando el data.frame\nImplementado para todo el tidyverse a través de 📦 tibble\n\ntibble(\n  x = c(\"a\", \"b\", \"c\"),\n  y = c(1, 2, 3)\n)\n\n# A tibble: 3 × 2\n  x         y\n  &lt;chr&gt; &lt;dbl&gt;\n1 a         1\n2 b         2\n3 c         3\n\n\n\nObjeto rectangular común para todos los paquetes del tidyverse"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#funciones-de-tidyverse",
+    "href": "presentaciones/preparacion.html#funciones-de-tidyverse",
+    "title": "Preparación de datos",
+    "section": "Funciones de tidyverse",
+    "text": "Funciones de tidyverse\n\n\nreciben un data.frame ➡️ regresan un data.frame\nreciben un tibble ➡️ regresan un tibble\ngeneran un objeto nuevo ➡️ crean un tibble"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#creando-tibbles",
+    "href": "presentaciones/preparacion.html#creando-tibbles",
+    "title": "Preparación de datos",
+    "section": "Creando tibbles",
+    "text": "Creando tibbles\n\nSalida predeterminada de funciones\nConvirtiendo otros objetos con as_tibble()\nConstruyendo a partir de vectores con tibble()"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#tibbles",
+    "href": "presentaciones/preparacion.html#tibbles",
+    "title": "Preparación de datos",
+    "section": "tibbles",
+    "text": "tibbles\nPara menos ambigüedad:\n\n\n\nNo asignan nombres a las filas\nNo modifican los nombres de las columnas\nNo convierten caracteres en factores\nExigen nombres completos para seleccionar subconjuntos de variables con $"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#impresión-de-tibbles",
+    "href": "presentaciones/preparacion.html#impresión-de-tibbles",
+    "title": "Preparación de datos",
+    "section": "Impresión de tibbles",
+    "text": "Impresión de tibbles\nPara no saturar la consola, los métodos de impresión para tibbles muestran:\n\n\nLas primeras 10 filas\nCuántas filas y columnas no se imprimieron\nSolo las columnas que entran en el ancho de nuestra pantalla\nEl tipo de variable de todas las columnas"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#qué-problemas-vemos-con-esta-presentación-de-datos",
+    "href": "presentaciones/preparacion.html#qué-problemas-vemos-con-esta-presentación-de-datos",
+    "title": "Preparación de datos",
+    "section": "¿Qué problemas vemos con esta presentación de datos?",
+    "text": "¿Qué problemas vemos con esta presentación de datos?"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#más-utilizable",
+    "href": "presentaciones/preparacion.html#más-utilizable",
+    "title": "Preparación de datos",
+    "section": "Más utilizable",
+    "text": "Más utilizable\n\n\n\n\n\n\n  \n    \n    \n      Nombre\n      Periodo\n      TipoViaje\n      PropositoViaje\n      Costo\n      Pais\n    \n  \n  \n    Miguel J.\n2022\nNacional\nSalida campo\n1000\nMX\n    Miguel J.\n2022\nNacional\nSalida campo\n1000\nMX\n    Miguel J.\n2022\nNacional\nCongreso\n500\nMX\n    Miguel J.\n2022\nNacional\nTaller\n500\nMX\n    Miguel J.\n2022\nInternacional\nCongreso\n2000\nEUA\n    Alejandra M.\n2022\nNA\nNA\nNA\nNA\n    Raul S.\n2022\nNacional\nSalida campo\n1000\nMX"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#datos-bien-organizados",
+    "href": "presentaciones/preparacion.html#datos-bien-organizados",
+    "title": "Preparación de datos",
+    "section": "Datos bien organizados",
+    "text": "Datos bien organizados\n\nMás fácil de importar y manipular\nMenos potencial de errores no replicables (alteraciones, omisiones, duplicaciones)\n\nSiguiendo buenos principios de organización producimos mejores datos y podremos identificar y resolver problemas en datos existentes"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#recomendaciones",
+    "href": "presentaciones/preparacion.html#recomendaciones",
+    "title": "Preparación de datos",
+    "section": "Recomendaciones",
+    "text": "Recomendaciones\n\nUnidades, nombres, esquemas, fechas etc. consistentes\nNombres utilizables\nEstructuras rectangulares\n\n\n\n\n\nOpenscapes (2020)\nTidy data illustrated\n\nBroman and Woo (2018)\nOrganizing data in spreadsheets\n\nVerde Arregoita et al. (2018)\nGood practices for sharing analysis-ready data…"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#consistencia",
+    "href": "presentaciones/preparacion.html#consistencia",
+    "title": "Preparación de datos",
+    "section": "Consistencia",
+    "text": "Consistencia\nTablas relacionadas con datos sobre seguimiento GPS de aves\n\n\n\n\n\n\n\n\n  \n    \n    \n      id\n      ave\n      edad\n      estado\n    \n  \n  \n    23\ngorrión\njuvenil\nVER\n    11\nbuho\nadulto\nVeracruz\n    7\nbuho\nj\nPuebla\n    40\ncodorniz\nADULTO\nPU\n    34\ngorrión\n1\nVER\n    30\npaloma\nA\nV\n  \n  \n  \n\n\n\n\n\n\n\n\n\n\n\n  \n    \n    \n      ID_ave\n      num_rasteador\n      sexo\n    \n  \n  \n    23\nb452\nM\n    11\nb256\nM\n    7\na122\nF\n    40\nb889\nM\n    34\nd136\nF\n  \n  \n  \n\n\n\n\n\n\n\n¿Cuántas inconsistencias ven aquí?"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#datos-rectangulares",
+    "href": "presentaciones/preparacion.html#datos-rectangulares",
+    "title": "Preparación de datos",
+    "section": "Datos rectangulares",
+    "text": "Datos rectangulares\n\n\n\n\nObjetos con filas y columnas, en los cuales:\n\nCada fila tiene el mismo número de columnas\nCada columna tiene el mismo número de filas\nVectores o factores de la misma longitud entonces todas las columnas tienen la misma ‘altura’"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#datos-rectangulares-rangos-de-celdas-en-una-hoja-de-cálculo",
+    "href": "presentaciones/preparacion.html#datos-rectangulares-rangos-de-celdas-en-una-hoja-de-cálculo",
+    "title": "Preparación de datos",
+    "section": "datos rectangulares ~ rangos de celdas en una hoja de cálculo",
+    "text": "datos rectangulares ~ rangos de celdas en una hoja de cálculo\n\n\n\n\n\n\n\n\n\nDavis Vaughan (2018)\nTidying Excel cash flow spreadsheets"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section",
+    "href": "presentaciones/preparacion.html#section",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "but sometimes such data is “rectangular” in the same sense that this cat is “bowl-shaped” 😂 pic.twitter.com/ZmxvgcV57d\n\n— Jenny Bryan (@JennyBryan) May 9, 2019"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-1",
+    "href": "presentaciones/preparacion.html#section-1",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "animal\n      ind_observados\n      habitat\n    \n  \n  \n    caracol\n12\nmar\n    gaviota\n14\ncosta\n    nutria\n11\nrío\n  \n  \n  \n\n\n\n\n\n\n\n\n\n\n\n  \n    \n    \n      caracol\n      gaviota\n      nutria\n    \n  \n  \n    12\n14\n11\n    mar\ncosta\nrío"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#datos-listos-para-uso",
+    "href": "presentaciones/preparacion.html#datos-listos-para-uso",
+    "title": "Preparación de datos",
+    "section": "¿Datos listos para uso?",
+    "text": "¿Datos listos para uso?\n\nAgrupar, transformar, ordenar, visualizar, modelar, compartir, etc."
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#no-se-puede",
+    "href": "presentaciones/preparacion.html#no-se-puede",
+    "title": "Preparación de datos",
+    "section": "¿No se puede?",
+    "text": "¿No se puede?\n\nOrdenar para un manejo más fácil y eficiente"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#datos-ordenados-tidy-data",
+    "href": "presentaciones/preparacion.html#datos-ordenados-tidy-data",
+    "title": "Preparación de datos",
+    "section": "Datos ordenados (tidy data)",
+    "text": "Datos ordenados (tidy data)\nUna reinterpretación accesible de distintos principios y definiciones de estadística y ciencias de la computación\n\n\n\nWickham (2014)\nTidy Data - Journal of Statistical Software"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#tidy-data",
+    "href": "presentaciones/preparacion.html#tidy-data",
+    "title": "Preparación de datos",
+    "section": "‘Tidy data’",
+    "text": "‘Tidy data’\n\nDatos acomodados en una matriz 2D con filas y columnas\nLas filas corresponden a observaciones\nLas columnas corresponden a variables\nUn solo valor por celda"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#para-qué",
+    "href": "presentaciones/preparacion.html#para-qué",
+    "title": "Preparación de datos",
+    "section": "¿Para qué?",
+    "text": "¿Para qué?\nMás fácil de reacomodar y manejar"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#para-qué-1",
+    "href": "presentaciones/preparacion.html#para-qué-1",
+    "title": "Preparación de datos",
+    "section": "¿Para qué?",
+    "text": "¿Para qué?\nTrabajando con filas\nLos valores de cada observación quedan juntos"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-4",
+    "href": "presentaciones/preparacion.html#section-4",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "Las variables entran directemente como especificaciones para modelos y/o parámetros gráficos"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#cuándo-no",
+    "href": "presentaciones/preparacion.html#cuándo-no",
+    "title": "Preparación de datos",
+    "section": "Cuándo no",
+    "text": "Cuándo no\n\nLos datos ordenados son más repetitivos y pueden ocupar más espacio que otras representaciones más compactas\n\n\n\nNo es un formato ideal para la captura de datos, o para tablas que forman parte de algún texto que será impreso"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#variables-por-separado-para-definir-grupos",
+    "href": "presentaciones/preparacion.html#variables-por-separado-para-definir-grupos",
+    "title": "Preparación de datos",
+    "section": "Variables por separado para definir grupos",
+    "text": "Variables por separado para definir grupos\nUsar ‘variables indicadoras’ en lugar de colapsar información entre dos o más variables.\n\n\n\n\n\n\n\n\n\n\n  \n    \n    \n      Equipo\n      Liga\n      Victorias\n      Clasificado\n    \n  \n  \n    Osos\nPrimera\n8\nSI\n    Venados\nReservas\n2\nNO\n    Dragones\nPrimera\n12\nSI\n    Leones\nPrimera\n4\nNO\n    Fénix FC\nReservas\n7\nSI"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#valores-faltantes",
+    "href": "presentaciones/preparacion.html#valores-faltantes",
+    "title": "Preparación de datos",
+    "section": "Valores faltantes",
+    "text": "Valores faltantes\nNo se registraron, no aplican, se perdieron, etc.\n\n Los datos faltantes siguen siendo datos \nEn R usamos NA, una constante especial que indica valores faltantes"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#encabezados-utilizables-nombres-de-las-columnas",
+    "href": "presentaciones/preparacion.html#encabezados-utilizables-nombres-de-las-columnas",
+    "title": "Preparación de datos",
+    "section": "Encabezados utilizables (nombres de las columnas)",
+    "text": "Encabezados utilizables (nombres de las columnas)\nNombres poco informativos e inconsistentes\n\n\n\n\n\n\n  \n    \n    \n      X\n      x1\n      X2\n      calif_min\n      CALIFICACION.PROMEDIO\n    \n  \n  \n    UANL\nNorte\nArquitectura\n6\n8.90\n    UT\nNorte\nDiseño\n7\n7.78\n    UABJO\nSur\nDiseño\n6\n8.50\n  \n  \n  \n\n\n\n\n\nMás díficil de recordar para hacer referencia a diferentes variables\nNo se ordenan bien (alfanuméricamente)"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-6",
+    "href": "presentaciones/preparacion.html#section-6",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "universidad\n      region\n      area\n      calificacion_minima\n      calificacion_promedio\n    \n  \n  \n    UANL\nNorte\nArquitectura\n6\n8.90\n    UT\nNorte\nDiseño\n7\n7.78\n    UABJO\nSur\nDiseño\n6\n8.50"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#nombres-de-columna-partidos",
+    "href": "presentaciones/preparacion.html#nombres-de-columna-partidos",
+    "title": "Preparación de datos",
+    "section": "Nombres de columna partidos",
+    "text": "Nombres de columna partidos\n\n\n\n\n\n\n  \n    \n    \n      universidad\n      region\n      area\n      calificacion_\n      calificacion\n    \n  \n  \n    NA\nNA\nNA\nminima\npromedio\n    UANL\nNorte\nArquitectura\n6\n8.9\n    UT\nNorte\nDiseño\n7\n7.78\n    UABJO\nSur\nDiseño\n6\n8.5\n  \n  \n  \n\n\n\n\n\nLos nombres de las columnas aparecen en &gt;1 fila\nMezcla de fragmentos de nombre con datos\nSe pierden los separadores entre palabras\nSe introducen NA ::: :::"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#datos-compartidos-adecuadamente",
+    "href": "presentaciones/preparacion.html#datos-compartidos-adecuadamente",
+    "title": "Preparación de datos",
+    "section": "Datos compartidos adecuadamente",
+    "text": "Datos compartidos adecuadamente\nFáciles de interpretar (por humanos y por máquinas) y listos para analizar\n↘ Reduce la dependencia a software complejo o caro y disminuye la necesidad de saber programar para limpiar datos complejos\n↘ Reducir la interpretación que habrá que hacer para poder usar los datos"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#formatos",
+    "href": "presentaciones/preparacion.html#formatos",
+    "title": "Preparación de datos",
+    "section": "Formatos",
+    "text": "Formatos\n\n\n\nEl PDF no es un formato para datos\n\n\n\n\n\n\nMientras más simple mejor (ej: texto delimitado - csv, tsv, etc.)\nCompartir datos, guardar cálculos y resultados por separado"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#funciones-y-paquetes-para-preparar-transformar-y-estructurar-datos",
+    "href": "presentaciones/preparacion.html#funciones-y-paquetes-para-preparar-transformar-y-estructurar-datos",
+    "title": "Preparación de datos",
+    "section": "Funciones y paquetes para preparar, transformar, y estructurar datos",
+    "text": "Funciones y paquetes para preparar, transformar, y estructurar datos\n\n\n📦 dplyr\n📦 tidyr\n\nFlexibles, pero desarrollados en torno a una filosofía común\n\nTrabas para no usar las funciones incorrectamente\n\nMenos código para lograr un resultado\nGrámatica y estructuras de datos compartidas\nTareas divididas entre funciones y paquetes\nUso de ‘pipes’"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#funciones-útiles-de-dplyr",
+    "href": "presentaciones/preparacion.html#funciones-útiles-de-dplyr",
+    "title": "Preparación de datos",
+    "section": "Funciones útiles de 📦 dplyr",
+    "text": "Funciones útiles de 📦 dplyr\n\nFunciones separadas para las operaciones más comunes\nCada función solo hace una cosa pero la hace bien\n\n\n\nFunciones intuitivas para:\n\nCrear subconjuntos de filas y columnas\nCrear o modificar columnas"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-7",
+    "href": "presentaciones/preparacion.html#section-7",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "Países megadiversosDatos\n\n\n\n\n\n\n\n\n  \n    \n    \n      pais\n      especies\n      amenazadas\n      region\n    \n  \n  \n    Indonesia\n670\n191\nAsia\n    Brasil\n648\n80\nAmerica\n    China\n551\n73\nAsia\n    Mexico\n523\n96\nAmerica\n    Peru\n467\n53\nAmerica\n    Congo\n430\n15\nAfrica\n    India\n412\n93\nAsia\n    Kenya\n376\n30\nAfrica\n    Argentina\n374\n38\nAmerica\n    Ecuador\n372\n47\nAmerica\n    Venezuela\n363\n35\nAmerica\n    Tanzania\n359\n41\nAfrica\n  \n  \n  \n\n\n\n\n\n\n\npaises_m &lt;- \ntibble::tribble(\n        ~pais, ~especies, ~amenazadas,   ~region,\n  \"Indonesia\",      670L,        191L,    \"Asia\",\n     \"Brasil\",      648L,         80L, \"America\",\n      \"China\",      551L,         73L,    \"Asia\",\n     \"Mexico\",      523L,         96L, \"America\",\n       \"Peru\",      467L,         53L, \"America\",\n      \"Congo\",      430L,         15L,  \"Africa\",\n      \"India\",      412L,         93L,    \"Asia\",\n      \"Kenya\",      376L,         30L,  \"Africa\",\n  \"Argentina\",      374L,         38L, \"America\",\n    \"Ecuador\",      372L,         47L, \"America\",\n  \"Venezuela\",      363L,         35L, \"America\",\n   \"Tanzania\",      359L,         41L,  \"Africa\"\n  )"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#select",
+    "href": "presentaciones/preparacion.html#select",
+    "title": "Preparación de datos",
+    "section": "select()",
+    "text": "select()\n\n\nSeleccionar columnas\n\npor nombre\n\npor posición\n\npor tipo\n\n\n\n\n\npaises_m %&gt;% \n  select(pais,\n         amenazadas) %&gt;% \n  head(4)\n\n# A tibble: 4 × 2\n  pais      amenazadas\n  &lt;chr&gt;          &lt;int&gt;\n1 Indonesia        191\n2 Brasil            80\n3 China             73\n4 Mexico            96"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#mutate",
+    "href": "presentaciones/preparacion.html#mutate",
+    "title": "Preparación de datos",
+    "section": "mutate()",
+    "text": "mutate()\n\n\nCrea o modifica columnas\n\nCrear nuevas\n\n‘sobre-escribir’ existentes\n\n\n\n\npaises_m %&gt;%\n  select(pais, amenazadas) %&gt;% \n  mutate(amenazadas_log = log(amenazadas)) %&gt;% \n  head(5)\n\n# A tibble: 5 × 3\n  pais      amenazadas amenazadas_log\n  &lt;chr&gt;          &lt;int&gt;          &lt;dbl&gt;\n1 Indonesia        191           5.25\n2 Brasil            80           4.38\n3 China             73           4.29\n4 Mexico            96           4.56\n5 Peru              53           3.97\n\n\n\n\nPodemos contrar en dónde aparece la nueva columna con los argumentos .before y .after"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#filter",
+    "href": "presentaciones/preparacion.html#filter",
+    "title": "Preparación de datos",
+    "section": "filter()",
+    "text": "filter()\nSeleccionar filas\nRetiene solamente las filas que cumplen una condición\n\n\npaises_m %&gt;% \n  select(pais, especies, amenazadas) %&gt;% \n  filter(amenazadas &gt; 75)\n\n# A tibble: 4 × 3\n  pais      especies amenazadas\n  &lt;chr&gt;        &lt;int&gt;      &lt;int&gt;\n1 Indonesia      670        191\n2 Brasil         648         80\n3 Mexico         523         96\n4 India          412         93"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#rename",
+    "href": "presentaciones/preparacion.html#rename",
+    "title": "Preparación de datos",
+    "section": "rename()",
+    "text": "rename()\nCambiar nombres de columnas\nNombre nuevo primero luego variable objetivo\n\n\npaises_m %&gt;% \n  rename(country=pais,\n         species=especies, threatened=amenazadas) %&gt;% \n  head()\n\n# A tibble: 6 × 4\n  country   species threatened region \n  &lt;chr&gt;       &lt;int&gt;      &lt;int&gt; &lt;chr&gt;  \n1 Indonesia     670        191 Asia   \n2 Brasil        648         80 America\n3 China         551         73 Asia   \n4 Mexico        523         96 America\n5 Peru          467         53 America\n6 Congo         430         15 Africa"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#ejercicio---datos-desde-paquetes-1",
+    "href": "presentaciones/preparacion.html#ejercicio---datos-desde-paquetes-1",
+    "title": "Preparación de datos",
+    "section": "Ejercicio - Datos desde paquetes (1)",
+    "text": "Ejercicio - Datos desde paquetes (1)\n\ndata() carga o genera una lista de juegos de datos disponibles con los paquetes que tengamos instalados \ndata() sin ningún argumento muestra todos los datos disponibles"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#ejercicio---datos-desde-paquetes-2",
+    "href": "presentaciones/preparacion.html#ejercicio---datos-desde-paquetes-2",
+    "title": "Preparación de datos",
+    "section": "Ejercicio - Datos desde paquetes (2)",
+    "text": "Ejercicio - Datos desde paquetes (2)\nPodemos especificar de cuál paquete enlistar datos\ndata(package=\"ggplot2\")\ndata(package=\"datasets\")\ndata(package=\"tidyr\")"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#ejercicio---datos-desde-paquetes-3",
+    "href": "presentaciones/preparacion.html#ejercicio---datos-desde-paquetes-3",
+    "title": "Preparación de datos",
+    "section": "Ejercicio - Datos desde paquetes (3)",
+    "text": "Ejercicio - Datos desde paquetes (3)\n data() carga datos desde un paquete, como argumento usamos el nombre del juego de datos que necesitamos (con o sin comillas)\n\nDebe estar cargado el paquete que contiene los datos\n\n\nlibrary(ggplot2)\ndata(economics)"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#ejercicio---manipulación-de-datos",
+    "href": "presentaciones/preparacion.html#ejercicio---manipulación-de-datos",
+    "title": "Preparación de datos",
+    "section": "Ejercicio - manipulación de datos",
+    "text": "Ejercicio - manipulación de datos\n\nCargar el objeto pinguinos, se instala con el paquete datos\nCrear un subconjunto de datos que solo incluya especie, isla, y largo_aleta_mm\n¿Cuántos individuos tienen aletas &gt; a 195 mm?\nCrea una nueva columna con el largo de aleta en pulgadas"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#operaciones-con-varias-columnas-en-simultáneo",
+    "href": "presentaciones/preparacion.html#operaciones-con-varias-columnas-en-simultáneo",
+    "title": "Preparación de datos",
+    "section": "Operaciones con varias columnas en simultáneo",
+    "text": "Operaciones con varias columnas en simultáneo\nacross()\nPara aplicar filter o mutate a varias columnas\n\nColumnas especificadas por posición (no es buena opción), nombre, o tipo\nSelecciones compuestas\n(ej: variables de tipo factor que contienen ‘temp’ en su nombre)"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#argumentos-de-across",
+    "href": "presentaciones/preparacion.html#argumentos-de-across",
+    "title": "Preparación de datos",
+    "section": "argumentos de across():",
+    "text": "argumentos de across():\n.cols Columnas para transformar\n.fns Función a aplicarse a cada una\n\nacross espera una función entonces el nombre y sus argumentos se pueden pasar por separado"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#funciones-adicionales-para-referirnos-a-columnas",
+    "href": "presentaciones/preparacion.html#funciones-adicionales-para-referirnos-a-columnas",
+    "title": "Preparación de datos",
+    "section": "Funciones adicionales para referirnos a columnas",
+    "text": "Funciones adicionales para referirnos a columnas\nExisten funciones auxiliares para especificar conjuntos de varaibles, se usan junto con o en lugar de across()\n\n\n\n[dplyr selection features and helpers]"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#everything",
+    "href": "presentaciones/preparacion.html#everything",
+    "title": "Preparación de datos",
+    "section": "everything()",
+    "text": "everything()\nTodas las variables\n\n\npaises_m %&gt;% \n  mutate(across(everything(), as.character)) %&gt;% head(3)\n\n# A tibble: 3 × 4\n  pais      especies amenazadas region \n  &lt;chr&gt;     &lt;chr&gt;    &lt;chr&gt;      &lt;chr&gt;  \n1 Indonesia 670      191        Asia   \n2 Brasil    648      80         America\n3 China     551      73         Asia"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-8",
+    "href": "presentaciones/preparacion.html#section-8",
+    "title": "Preparación de datos",
+    "section": "!",
+    "text": "!\nDevuelve el complemento de un conjunto de variables\n\n\npaises_m %&gt;% \n  select(!c(region,amenazadas)) %&gt;% head()\n\n# A tibble: 6 × 2\n  pais      especies\n  &lt;chr&gt;        &lt;int&gt;\n1 Indonesia      670\n2 Brasil         648\n3 China          551\n4 Mexico         523\n5 Peru           467\n6 Congo          430"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#where",
+    "href": "presentaciones/preparacion.html#where",
+    "title": "Preparación de datos",
+    "section": "where()",
+    "text": "where()\nSelecciona las variables para las cuales alguna comparación regrese TRUE\n\nej: transformar todas las variables de tipo numérico, identificadas con is.numeric()\n\n\npaises_m %&gt;% \n  mutate(across(where(is.numeric), log2)) %&gt;% slice(1:3)\n\n# A tibble: 3 × 4\n  pais      especies amenazadas region \n  &lt;chr&gt;        &lt;dbl&gt;      &lt;dbl&gt; &lt;chr&gt;  \n1 Indonesia     9.39       7.58 Asia   \n2 Brasil        9.34       6.32 America\n3 China         9.11       6.19 Asia"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#matches",
+    "href": "presentaciones/preparacion.html#matches",
+    "title": "Preparación de datos",
+    "section": "matches()",
+    "text": "matches()\nEncuentra nombres de variables con expresiones regulares\n\nej: quitar variables que contengan “prec”\n\n\npaises_m %&gt;% \n  mutate(across(matches(\"p..s\"), toupper)) %&gt;% head\n\n# A tibble: 6 × 4\n  pais      especies amenazadas region \n  &lt;chr&gt;        &lt;int&gt;      &lt;int&gt; &lt;chr&gt;  \n1 INDONESIA      670        191 Asia   \n2 BRASIL         648         80 America\n3 CHINA          551         73 Asia   \n4 MEXICO         523         96 America\n5 PERU           467         53 America\n6 CONGO          430         15 Africa"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-9",
+    "href": "presentaciones/preparacion.html#section-9",
+    "title": "Preparación de datos",
+    "section": ":",
+    "text": ":\nSelecciona variables contiguas\n\n\npaises_m %&gt;% \n  select(pais:amenazadas) %&gt;% head()\n\n# A tibble: 6 × 3\n  pais      especies amenazadas\n  &lt;chr&gt;        &lt;int&gt;      &lt;int&gt;\n1 Indonesia      670        191\n2 Brasil         648         80\n3 China          551         73\n4 Mexico         523         96\n5 Peru           467         53\n6 Congo          430         15"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-10",
+    "href": "presentaciones/preparacion.html#section-10",
+    "title": "Preparación de datos",
+    "section": "-",
+    "text": "-\nExcluir variables\n(devuleve todos los elementos excepto el que sigue el operador de resta)\n\n\npaises_m %&gt;% \n  select(-region) %&gt;% head()\n\n# A tibble: 6 × 3\n  pais      especies amenazadas\n  &lt;chr&gt;        &lt;int&gt;      &lt;int&gt;\n1 Indonesia      670        191\n2 Brasil         648         80\n3 China          551         73\n4 Mexico         523         96\n5 Peru           467         53\n6 Congo          430         15"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#across-sin-funciones-auxiliares",
+    "href": "presentaciones/preparacion.html#across-sin-funciones-auxiliares",
+    "title": "Preparación de datos",
+    "section": "across sin funciones auxiliares",
+    "text": "across sin funciones auxiliares\nRaíz cuadarada (sqrt()) de especies y amenazadas\n\npaises_m %&gt;%  \n  mutate(across(c(especies, amenazadas), sqrt)) %&gt;% \n  head()\n\n# A tibble: 6 × 4\n  pais      especies amenazadas region \n  &lt;chr&gt;        &lt;dbl&gt;      &lt;dbl&gt; &lt;chr&gt;  \n1 Indonesia     25.9      13.8  Asia   \n2 Brasil        25.5       8.94 America\n3 China         23.5       8.54 Asia   \n4 Mexico        22.9       9.80 America\n5 Peru          21.6       7.28 America\n6 Congo         20.7       3.87 Africa"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#raíz-cuadrada-sqrt-de-todas-las-variables-numéricas",
+    "href": "presentaciones/preparacion.html#raíz-cuadrada-sqrt-de-todas-las-variables-numéricas",
+    "title": "Preparación de datos",
+    "section": "Raíz cuadrada (sqrt()) de todas las variables numéricas",
+    "text": "Raíz cuadrada (sqrt()) de todas las variables numéricas\n\npaises_m %&gt;% \n  mutate(across(where(is.numeric), sqrt)) %&gt;% \n  head()\n\n# A tibble: 6 × 4\n  pais      especies amenazadas region \n  &lt;chr&gt;        &lt;dbl&gt;      &lt;dbl&gt; &lt;chr&gt;  \n1 Indonesia     25.9      13.8  Asia   \n2 Brasil        25.5       8.94 America\n3 China         23.5       8.54 Asia   \n4 Mexico        22.9       9.80 America\n5 Peru          21.6       7.28 America\n6 Congo         20.7       3.87 Africa"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#funciones-auxiliares-para-descartar-variables",
+    "href": "presentaciones/preparacion.html#funciones-auxiliares-para-descartar-variables",
+    "title": "Preparación de datos",
+    "section": "Funciones auxiliares para descartar variables",
+    "text": "Funciones auxiliares para descartar variables\nDejar solo variables numéricas\n\npaises_m %&gt;% \n  select(where(is.numeric)) %&gt;% \n  head()\n\n# A tibble: 6 × 2\n  especies amenazadas\n     &lt;int&gt;      &lt;int&gt;\n1      670        191\n2      648         80\n3      551         73\n4      523         96\n5      467         53\n6      430         15"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-11",
+    "href": "presentaciones/preparacion.html#section-11",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "Datos anchos\nLectura y captura más fácil\nÚtil para edición interactiva en hojas de cálculo\n\n\nDatos largos\nTiende a seguir principios de Datos Ordenados\nListos para analizar\nSe vinculan directamente con parámetros estéticos en un gráfico"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#reestructurando-datos-con-tidyr",
+    "href": "presentaciones/preparacion.html#reestructurando-datos-con-tidyr",
+    "title": "Preparación de datos",
+    "section": "Reestructurando datos con 📦 tidyr",
+    "text": "Reestructurando datos con 📦 tidyr\n ancho a largo: pivot_longer()\n\n\npivot_longer(data, cols, names_to, values_to)\n\n\n largo a ancho: pivot_wider()\n\n\npivot_longer(data, cols, names_from, values_from)"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-12",
+    "href": "presentaciones/preparacion.html#section-12",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "coloniasDatos\n\n\n\n\n\n\n\n\n  \n    \n    \n      Asentamiento\n      Tipo\n      CP\n      Abarrotes\n      Supermercado\n      Minisuper\n    \n  \n  \n    Arroyo Blanco\nColonia\n91025\n7\n2\n1\n    Atenas\nFraccionamiento\n91184\n1\n0\n2\n    Colibris\nColonia\n91067\n8\n3\n2\n    Del Valle\nUnidad Habitacional\n91097\n2\n1\n1\n    El Cafetal\nFraccionamiento\n91150\n2\n0\n0\n  \n  \n  \n\n\n\n\n\n\n\ncolonias &lt;- \ntibble::tribble(\n    ~Asentamiento,                 ~Tipo,    ~CP, ~Abarrotes, ~Supermercado, ~Minisuper,\n  \"Arroyo Blanco\",             \"Colonia\", 91025L,         7L,            2L,         1L,\n         \"Atenas\",     \"Fraccionamiento\", 91184L,         1L,            0L,         2L,\n       \"Colibris\",             \"Colonia\", 91067L,         8L,            3L,         2L,\n      \"Del Valle\", \"Unidad Habitacional\", 91097L,         2L,            1L,         1L,\n     \"El Cafetal\",     \"Fraccionamiento\", 91150L,         2L,            0L,         0L\n  )\n\n\n\n\nVariables:\ncolonia, tipo de asentamiento, Código Postal, Número de negocios"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#ancho-a-largo",
+    "href": "presentaciones/preparacion.html#ancho-a-largo",
+    "title": "Preparación de datos",
+    "section": "Ancho a largo",
+    "text": "Ancho a largo\n\ncolonias_largo &lt;- colonias %&gt;%\n  pivot_longer(\n    cols = c(Abarrotes,Supermercado,Minisuper),\n    names_to = \"tipo_negocio\",\n    values_to = \"n_negocios\")\n\ncols Las columnas cuyos nombres son datos\nnames_to Nombre para la nueva varible que se crea a partir de los nombres de cada cols\nvalues_to Nombre para la variable que se crea a partir de los contenidos de cada columna especificada con cols"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-13",
+    "href": "presentaciones/preparacion.html#section-13",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "colonias %&gt;%\n  pivot_longer(\n    cols = c(Abarrotes,Supermercado,Minisuper),\n    names_to = \"tipo_negocio\",\n    values_to = \"n_negocios\")"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-14",
+    "href": "presentaciones/preparacion.html#section-14",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "colonias %&gt;%\n  pivot_longer(\n    cols = c(Abarrotes,Supermercado,Minisuper),\n    names_to = \"tipo_negocio\",\n    values_to = \"n_negocios\")\n\n# A tibble: 15 × 5\n   Asentamiento  Tipo                   CP tipo_negocio n_negocios\n   &lt;chr&gt;         &lt;chr&gt;               &lt;int&gt; &lt;chr&gt;             &lt;int&gt;\n 1 Arroyo Blanco Colonia             91025 Abarrotes             7\n 2 Arroyo Blanco Colonia             91025 Supermercado          2\n 3 Arroyo Blanco Colonia             91025 Minisuper             1\n 4 Atenas        Fraccionamiento     91184 Abarrotes             1\n 5 Atenas        Fraccionamiento     91184 Supermercado          0\n 6 Atenas        Fraccionamiento     91184 Minisuper             2\n 7 Colibris      Colonia             91067 Abarrotes             8\n 8 Colibris      Colonia             91067 Supermercado          3\n 9 Colibris      Colonia             91067 Minisuper             2\n10 Del Valle     Unidad Habitacional 91097 Abarrotes             2\n11 Del Valle     Unidad Habitacional 91097 Supermercado          1\n12 Del Valle     Unidad Habitacional 91097 Minisuper             1\n13 El Cafetal    Fraccionamiento     91150 Abarrotes             2\n14 El Cafetal    Fraccionamiento     91150 Supermercado          0\n15 El Cafetal    Fraccionamiento     91150 Minisuper             0"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#largo-a-ancho",
+    "href": "presentaciones/preparacion.html#largo-a-ancho",
+    "title": "Preparación de datos",
+    "section": "Largo a ancho",
+    "text": "Largo a ancho\n\ncolonias_largo %&gt;% \n  pivot_wider(names_from = tipo_negocio, \n              values_from = n_negocios)\n\nnames_from De cuáles columnas vamos a tomar valores para los nombres de las nuevas variables\nvalues_from Cuál columna tiene los valores de celda para las nuevas variables creadas"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-15",
+    "href": "presentaciones/preparacion.html#section-15",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "colonias_largo %&gt;% \n  pivot_wider(names_from = tipo_negocio, \n              values_from = n_negocios)\n\n# A tibble: 5 × 6\n  Asentamiento  Tipo                   CP Abarrotes Supermercado Minisuper\n  &lt;chr&gt;         &lt;chr&gt;               &lt;int&gt;     &lt;int&gt;        &lt;int&gt;     &lt;int&gt;\n1 Arroyo Blanco Colonia             91025         7            2         1\n2 Atenas        Fraccionamiento     91184         1            0         2\n3 Colibris      Colonia             91067         8            3         2\n4 Del Valle     Unidad Habitacional 91097         2            1         1\n5 El Cafetal    Fraccionamiento     91150         2            0         0"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#ejercicio---pivot",
+    "href": "presentaciones/preparacion.html#ejercicio---pivot",
+    "title": "Preparación de datos",
+    "section": "Ejercicio - pivot",
+    "text": "Ejercicio - pivot\n\nCarga el archivo “expresion_genes.csv”. Esta tabla contiene valores de expresión génica para cinco especies de peces, a partir de muestras tomadas en seis tiempos y de dos tejidos.\nTransforma los datos de ancho a largo y de regreso a ancho."
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-16",
+    "href": "presentaciones/preparacion.html#section-16",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "coalesce() - Combina valores. A partir de dos o más vectores, retiene valores en orden y rellena datos faltantes con valores de los siguientes vectores.\n\nfill() Rellena valores adyacentes. Ayuda a evitar datos faltantes innecesarios. Similar a las funciones para rellenar valores contiguos en hojas de cálculo."
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#dplyrcoalesce",
+    "href": "presentaciones/preparacion.html#dplyrcoalesce",
+    "title": "Preparación de datos",
+    "section": "dplyr::coalesce()",
+    "text": "dplyr::coalesce()\n\nEncuentra y regresa el primer valor que no sea NA en cada posición para un conjunto de vectores\n\n* las columnas en datos rectangulares son vectores\n\nDevuelve un solo vector con los valores que no sean NA que aparezcan primero."
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-17",
+    "href": "presentaciones/preparacion.html#section-17",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "x &lt;- c(1, 2, NA, NA, 5)\ny &lt;- c(NA, NA, 3, 4, 5)\nz &lt;- c(1, 4, 3, 5, 3)\n\n\nVectores numéricos del mismo largo, hay valores faltantes.\n\n\ncoalesce(x, y, z)\n\n[1] 1 2 3 4 5\n\n\n\n\nEl orden de los argumentos importa"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-18",
+    "href": "presentaciones/preparacion.html#section-18",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "x &lt;- c(1, 2, NA, NA, 5)\ny &lt;- c(NA, NA, 3, 4, 5)\nz &lt;- c(1, 4, 3, 5, 3)\n\n\n\n\ncoalesce(z,x,y)\n\n[1] 1 4 3 5 3"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-19",
+    "href": "presentaciones/preparacion.html#section-19",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "humedad sueloDatos\n\n\n\n\n\n\n\n\n  \n    \n    \n      muestra\n      sensor_1\n      sensor_respaldo\n      literatura\n    \n  \n  \n    ladera sur\nNA\n4.9\n2.6\n    ladera norte\n2.2\nNA\n4.3\n    urbano\n4.5\n5.0\n3.4\n    invernadero A\nNA\n2.7\n3.5\n    invernadero B\n2.5\nNA\n2.3\n  \n  \n  \n\n\n\n\n\n\n\nhumedad &lt;- \ntibble::tribble(\n         ~muestra, ~sensor_1, ~sensor_respaldo, ~literatura,\n     \"ladera sur\",        NA,              4.9,         2.6,\n   \"ladera norte\",       2.2,               NA,         4.3,\n         \"urbano\",       4.5,                5,         3.4,\n  \"invernadero A\",        NA,              2.7,         3.5,\n  \"invernadero B\",       2.5,               NA,         2.3\n  )"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-20",
+    "href": "presentaciones/preparacion.html#section-20",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "humedad %&gt;% \n  mutate(val_completo = coalesce(sensor_1, sensor_respaldo, literatura))\n\n# A tibble: 5 × 5\n  muestra       sensor_1 sensor_respaldo literatura val_completo\n  &lt;chr&gt;            &lt;dbl&gt;           &lt;dbl&gt;      &lt;dbl&gt;        &lt;dbl&gt;\n1 ladera sur        NA               4.9        2.6          4.9\n2 ladera norte       2.2            NA          4.3          2.2\n3 urbano             4.5             5          3.4          4.5\n4 invernadero A     NA               2.7        3.5          2.7\n5 invernadero B      2.5            NA          2.3          2.5"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#tidyrfill",
+    "href": "presentaciones/preparacion.html#tidyrfill",
+    "title": "Preparación de datos",
+    "section": "tidyr::fill()",
+    "text": "tidyr::fill()\n\n\n\n\n\n\n\n\n  \n    \n    \n      mamiferos\n      biomasa\n    \n  \n  \n    ganado\n21\n    NA\n5\n    NA\n7\n    NA\n23\n    NA\n74\n    silvestre\n23\n    NA\n65\n    NA\n12\n    NA\n5\n  \n  \n  \n\n\n\n\n\n\nRellena valores faltantes en una columna (por defecto de arriba a abajo)\nSe asume que los valores contiguos son los mismos hasta que aparece otro distinto en la misma columna\nRellena hasta el siguiente valor que no sea NA"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-21",
+    "href": "presentaciones/preparacion.html#section-21",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "carbon_mamiferos\n\n# A tibble: 9 × 2\n  mamiferos biomasa\n  &lt;chr&gt;       &lt;dbl&gt;\n1 ganado         21\n2 &lt;NA&gt;            5\n3 &lt;NA&gt;            7\n4 &lt;NA&gt;           23\n5 &lt;NA&gt;           74\n6 silvestre      23\n7 &lt;NA&gt;           65\n8 &lt;NA&gt;           12\n9 &lt;NA&gt;            5\n\n\n\n\ncarbon_mamiferos %&gt;% \n  fill(mamiferos)\n\n# A tibble: 9 × 2\n  mamiferos biomasa\n  &lt;chr&gt;       &lt;dbl&gt;\n1 ganado         21\n2 ganado          5\n3 ganado          7\n4 ganado         23\n5 ganado         74\n6 silvestre      23\n7 silvestre      65\n8 silvestre      12\n9 silvestre       5"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-2",
+    "href": "presentaciones/preparacion.html#section-2",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "animal\n      ind_observados\n      habitat\n    \n  \n  \n    caracol\n12\nmar\n    gaviota\n14\ncosta\n    nutria\n11\nrío\n  \n  \n  \n\n\n\n\n\n\n\n\n\n\n\n  \n    \n    \n      caracol\n      gaviota\n      nutria\n    \n  \n  \n    12\n14\n11\n    mar\ncosta\nrío"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-5",
+    "href": "presentaciones/preparacion.html#section-5",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "Las variables entran directemente como especificaciones para modelos y/o parámetros gráficos"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#section-22",
+    "href": "presentaciones/preparacion.html#section-22",
+    "title": "Preparación de datos",
+    "section": "",
+    "text": "carbon_mamiferos\n\n# A tibble: 9 × 2\n  mamiferos biomasa\n  &lt;chr&gt;       &lt;dbl&gt;\n1 ganado         21\n2 &lt;NA&gt;            5\n3 &lt;NA&gt;            7\n4 &lt;NA&gt;           23\n5 &lt;NA&gt;           74\n6 silvestre      23\n7 &lt;NA&gt;           65\n8 &lt;NA&gt;           12\n9 &lt;NA&gt;            5\n\n\n\n\ncarbon_mamiferos %&gt;% \n  fill(mamiferos)\n\n# A tibble: 9 × 2\n  mamiferos biomasa\n  &lt;chr&gt;       &lt;dbl&gt;\n1 ganado         21\n2 ganado          5\n3 ganado          7\n4 ganado         23\n5 ganado         74\n6 silvestre      23\n7 silvestre      65\n8 silvestre      12\n9 silvestre       5"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#importando-archivos",
+    "href": "presentaciones/introduccion.html#importando-archivos",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Importando archivos",
+    "text": "Importando archivos\nNecesitamos:\n\nalguna función para importar\nruta del archivo\nnombre del objeto que vamos a crear a partir del archivo\nargumentos adicionales para controlar la lectura del archivo"
+  },
+  {
+    "objectID": "presentaciones/introduccion.html#ejercicio-3",
+    "href": "presentaciones/introduccion.html#ejercicio-3",
+    "title": "Introducción práctica a la programación en R",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nCon readxl:\nImportar las hojas del archivo mascoteria.xlsx\nArgumentos útiles\n\npath\nsheet\nskip"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html",
+    "href": "presentaciones/expresiones-regulares.html",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "Attaching package: 'janitor'\n\n\nThe following objects are masked from 'package:stats':\n\n    chisq.test, fisher.test\n\n\n\nAttaching package: 'tidyr'\n\n\nThe following object is masked from 'package:magrittr':\n\n    extract\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#expresiones-regulares",
+    "href": "presentaciones/expresiones-regulares.html#expresiones-regulares",
+    "title": "Expresiones regulares",
+    "section": "¿Expresiones regulares?",
+    "text": "¿Expresiones regulares?\n\n\nConocidas como regex, R.E., E.R., o regexp (singular)\nLenguaje conciso para describir patrones de texto\n\n\nCadenas (🧶strings) de caracteres codificadas especificamente para empatar patrones en otras cadenas de texto"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#expresiones-regulares-1",
+    "href": "presentaciones/expresiones-regulares.html#expresiones-regulares-1",
+    "title": "Expresiones regulares",
+    "section": "Expresiones regulares",
+    "text": "Expresiones regulares\nEn la práctica, un lenguaje de programación con su propia sintaxis y terminología\n\nentrada: una cadena de texto que se compila en un mini programa construido específicamente para identificar un patrón\n Pueden usarse para empatar, buscar, reemplazar, o partir texto"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#cadenas-de-texto-strings",
+    "href": "presentaciones/expresiones-regulares.html#cadenas-de-texto-strings",
+    "title": "Expresiones regulares",
+    "section": "Cadenas de texto (🧶Strings)",
+    "text": "Cadenas de texto (🧶Strings)\nUn conjunto de caracteres que componen un elemento de un vector:\n\n\ncadena_de_texto &lt;- \"Esta oración es una cadena\"\n\n\nPodemos almacenar varias cadenas en un vector de texto:\n\n\nmascotas &lt;-  c(\"perro\",\"gato\",\"loro\",\"perro\")"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#cadenas-de-texto",
+    "href": "presentaciones/expresiones-regulares.html#cadenas-de-texto",
+    "title": "Expresiones regulares",
+    "section": "Cadenas de texto",
+    "text": "Cadenas de texto\n\n\nLos nombres de variables, objetos, y los valores en un data frame también pueden ser cadenas de texto:\n\n\n\n\n\n\n\n  \n    \n    \n      bebida\n      precio\n    \n  \n  \n    café\n3.50\n    té\n2.99\n    jugo\n3.20"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#r-distingue-entre-mayúsculas-y-minúsculas",
+    "href": "presentaciones/expresiones-regulares.html#r-distingue-entre-mayúsculas-y-minúsculas",
+    "title": "Expresiones regulares",
+    "section": "R distingue entre mayúsculas y minúsculas",
+    "text": "R distingue entre mayúsculas y minúsculas\nLa misma letra en mayúscula y mínuscula se trata como un caracter diferente\n\n\n\"rata\"==\"RATA\"\n\n[1] FALSE\n\n\n\n\"rata\"==\"raTa\"\n\n[1] FALSE"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#por-defecto-las-expresionas-regulares-también-distinguen-entre-mayúsculas-y-mínusculas",
+    "href": "presentaciones/expresiones-regulares.html#por-defecto-las-expresionas-regulares-también-distinguen-entre-mayúsculas-y-mínusculas",
+    "title": "Expresiones regulares",
+    "section": "Por defecto las expresionas regulares también distinguen entre mayúsculas y mínusculas",
+    "text": "Por defecto las expresionas regulares también distinguen entre mayúsculas y mínusculas\nPodemos:\n\nConstruir expresiones que no distingan\n‘Ignorar’ esta distinción al momento de empatar caracteres"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#para-qué-aprender-a-escribir-expresiones-regulares",
+    "href": "presentaciones/expresiones-regulares.html#para-qué-aprender-a-escribir-expresiones-regulares",
+    "title": "Expresiones regulares",
+    "section": "¿Para qué aprender a escribir expresiones regulares?",
+    "text": "¿Para qué aprender a escribir expresiones regulares?\n\n\n\nAhorrar tiempo al buscar patrones, transformar texto, describir patrones, extraer partes de palabras, etc.\nUna sola expresión regular puede reemplazar decenas de líneas de código\nSirven en prácticamente cualquier lenguaje de programación o aplicación de línea de comandos"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#primeros-pasos-con-regex",
+    "href": "presentaciones/expresiones-regulares.html#primeros-pasos-con-regex",
+    "title": "Expresiones regulares",
+    "section": "Primeros pasos con regex",
+    "text": "Primeros pasos con regex\n\n\nExpresión regular\n gato\n\nEntrada\n “Ese gato feo”\n\nResultado\n Ese gato feo\n\n\nLa expresión regular para encontrar una secuencia fija de caracteres es esa misma secuencia\n\nbusca una g seguida de una a luego t y o (todos estos caracteres juntos y en ese orden de izq. a der.)"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#probando-regex",
+    "href": "presentaciones/expresiones-regulares.html#probando-regex",
+    "title": "Expresiones regulares",
+    "section": "Probando regex",
+    "text": "Probando regex\n¿Está funcionando mi expresión?\n\nrubular - Michael Lovitt\nregex101 - Firas Dib\nregexr - Grant Skinner\nregexpal - Dan’s Developer Tools"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#ejercicio",
+    "href": "presentaciones/expresiones-regulares.html#ejercicio",
+    "title": "Expresiones regulares",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nAbrir rubular, regex101, regexr, o regexpal\nProbemos el primer ejemplo gato y “ese gato feo”"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#caracteres-literales-y-metacaracteres",
+    "href": "presentaciones/expresiones-regulares.html#caracteres-literales-y-metacaracteres",
+    "title": "Expresiones regulares",
+    "section": "Caracteres literales y metacaracteres",
+    "text": "Caracteres literales y metacaracteres\nTanto las cadenas de texto como las expresiones regulares se componen por caracteres\n\nPodemos agrupar a los caracteres dependiendo de su comportamiento"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#literales",
+    "href": "presentaciones/expresiones-regulares.html#literales",
+    "title": "Expresiones regulares",
+    "section": "Literales",
+    "text": "Literales\nSi la entrada es “pato” y la E.R. es pato\n\nHabrá coincidencia cuando los caracteres p, a, t y o aparezcan consecutivamente en el texto de entrada"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#caracteres-literales",
+    "href": "presentaciones/expresiones-regulares.html#caracteres-literales",
+    "title": "Expresiones regulares",
+    "section": "Caracteres literales",
+    "text": "Caracteres literales\np, a, t y o serían ejemplos de caracteres literales\n Se encuentran a sí mismos"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#section",
+    "href": "presentaciones/expresiones-regulares.html#section",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "El poder y la flexibilidad de las expresiones regulares viene de su capacidad de describir patrones complejos\n\n\n\n Si un patron de texto se puede describir verbalmente, seguramente se puede codificar en una expresión regular"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#patrones-posibles",
+    "href": "presentaciones/expresiones-regulares.html#patrones-posibles",
+    "title": "Expresiones regulares",
+    "section": "Patrones posibles",
+    "text": "Patrones posibles\n\n“rata” pero no “bata”\n“pollo” pero solo si el esta secuencia está al principio de la cadena de texto\nnúmeros (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)\nVariantes ortográficas “Brasil” o “Brazil”\nPalabras con terminaciones específicas (DAE, NAE, etc.)\nFechas\nCorreos electrónicos"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#más-posibilidades",
+    "href": "presentaciones/expresiones-regulares.html#más-posibilidades",
+    "title": "Expresiones regulares",
+    "section": "Más posibilidades",
+    "text": "Más posibilidades\n\nCódigos postales\nNúmeros entre paréntesis\nUsuarios de Twitter (comienzan con @, sin espacios ni símbolos, &lt;16 caracteres)\nPalabras en MAYÚSCULA"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#metacaracteres",
+    "href": "presentaciones/expresiones-regulares.html#metacaracteres",
+    "title": "Expresiones regulares",
+    "section": "Metacaracteres",
+    "text": "Metacaracteres\nUn pequeño subconjunto de caracteres nos ayudan a describir patrones más complejos porque tienen comportamientos especiales y no se buscan solo a sí mismos.\nCuando aparecen en una E.R., se interpretan de una manera especial.\nIncluyen: []^$.|?*+(), que están apartados para fines especiales"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#comodines",
+    "href": "presentaciones/expresiones-regulares.html#comodines",
+    "title": "Expresiones regulares",
+    "section": "Comodines",
+    "text": "Comodines\nPara empatar caracteres desconocidos\n. empata cualquier caracter una vez\n m..l empata “miel” pero no “miguel”"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#conjuntos-de-caracteres",
+    "href": "presentaciones/expresiones-regulares.html#conjuntos-de-caracteres",
+    "title": "Expresiones regulares",
+    "section": "Conjuntos de caracteres",
+    "text": "Conjuntos de caracteres\nEmpatan uno o más caracteres especificados con corchetes\n[ ] para buscar conjuntos de caracteres\n\n[mr]ata empata “mata”, y “rata”, pero no “bata”"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#negando-conjuntos-de-caracteres",
+    "href": "presentaciones/expresiones-regulares.html#negando-conjuntos-de-caracteres",
+    "title": "Expresiones regulares",
+    "section": "Negando conjuntos de caracteres",
+    "text": "Negando conjuntos de caracteres\n[^] excluye conjuntos de caracteres\n\n^ va al principio del conjunto\n\n\n[^aoeiou] solo empata consonantes\n[^R] todo excepto R mayúscula"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#intervalos-de-caracteres",
+    "href": "presentaciones/expresiones-regulares.html#intervalos-de-caracteres",
+    "title": "Expresiones regulares",
+    "section": "Intervalos de caracteres",
+    "text": "Intervalos de caracteres\nIndican una serie de caracteres contiguos dentro de un conjunto de caracteres\nEl guión - dentro de un conjunto de caracteres sirve para abreviar secuencias alfabéticas o numéricas\n[A-D] cualquier letra mayúscula entre A y D\n[5-8] cualquier dígito entre 5 y 8\n[A-Za-z] cualquier letra"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#aserciones-de-tipo-límite-anchors",
+    "href": "presentaciones/expresiones-regulares.html#aserciones-de-tipo-límite-anchors",
+    "title": "Expresiones regulares",
+    "section": "Aserciones de tipo límite (anchors)",
+    "text": "Aserciones de tipo límite (anchors)\nEspecifican la posición relativa del patrón que estamos buscando\n^ comienza con\n$ termina con\n\n\n^mil empata “militar” pero no “familia”\ning$ empata “Boing” pero no “ingeniero”"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#ejercicio-1",
+    "href": "presentaciones/expresiones-regulares.html#ejercicio-1",
+    "title": "Expresiones regulares",
+    "section": "Ejercicio",
+    "text": "Ejercicio\n\n¿Cómo podemos empatar mano, milo, malo, y mito?\n¿Cómo podemos empatar Cristian, Kristian, y Crystian usando conjuntos de caracteres?"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#práctica",
+    "href": "presentaciones/expresiones-regulares.html#práctica",
+    "title": "Expresiones regulares",
+    "section": "Práctica",
+    "text": "Práctica\n\n¿Cuál de estas E.R. empata mila al principio de una cadena de texto?\n\n\n\n\n^mila\n\n\n\nmila\n\n\n\n$mila\n\n\n\nmila^"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#cuantificadores",
+    "href": "presentaciones/expresiones-regulares.html#cuantificadores",
+    "title": "Expresiones regulares",
+    "section": "Cuantificadores",
+    "text": "Cuantificadores\nIndican el número de caracteres o expresiones que deben coincidir\n? Cero o una\n* Cero o más\n+ Una o más\n{} n veces\n\nlos cuantificadores aplican al caracter que tienen a su izquierda"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#cuantificadores-1",
+    "href": "presentaciones/expresiones-regulares.html#cuantificadores-1",
+    "title": "Expresiones regulares",
+    "section": "Cuantificadores",
+    "text": "Cuantificadores\nIsabell?a coincide con “Isabella” y con “Isabela”\n\n0 o 1\n\ngo*l! coincide con: “gl!”, “gol!”, “gooool!”, “goooooooool!”, etc.\n\n0 o más"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#cuantificadores-2",
+    "href": "presentaciones/expresiones-regulares.html#cuantificadores-2",
+    "title": "Expresiones regulares",
+    "section": "Cuantificadores",
+    "text": "Cuantificadores\nno+ empata “no”, “nooo”, “noooooo”, etc, pero no “n”\n\nuna o más\n\na{2} empata “portaaviones” pero no “portaviones”\n\nn veces"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#ejercicio-2",
+    "href": "presentaciones/expresiones-regulares.html#ejercicio-2",
+    "title": "Expresiones regulares",
+    "section": "Ejercicio",
+    "text": "Ejercicio\n\nEmpatar mira, miiiiiiiiiira, y miiira\nEmpatar Computador, computadora, computador, y Computadora (usar juegos de caracteres y cuantificadores)"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#coincidencias-alternativas",
+    "href": "presentaciones/expresiones-regulares.html#coincidencias-alternativas",
+    "title": "Expresiones regulares",
+    "section": "Coincidencias alternativas",
+    "text": "Coincidencias alternativas\nSepara alternativas de búsqueda\n| una u otra opción\n\nBra(s|z)il ecuentra Brasil y Brazil.\n\nlas dos alternativas van entre paréntesis"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#construcciones-especiales-y-escapes",
+    "href": "presentaciones/expresiones-regulares.html#construcciones-especiales-y-escapes",
+    "title": "Expresiones regulares",
+    "section": "Construcciones especiales y escapes",
+    "text": "Construcciones especiales y escapes\n\\ indica una construcción especial abreviada o sirve para poder usar caracteres especiales como literales"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#escapes",
+    "href": "presentaciones/expresiones-regulares.html#escapes",
+    "title": "Expresiones regulares",
+    "section": "Escapes",
+    "text": "Escapes\nqué\\\\? para poder buscar el signo de interrogación literalmente\n\nen R la diagonal también se tiene que escapar\n\nLos metacaracteres dentro de conjuntos de caracteres se vuelven literales"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#construcciones-especiales",
+    "href": "presentaciones/expresiones-regulares.html#construcciones-especiales",
+    "title": "Expresiones regulares",
+    "section": "Construcciones especiales",
+    "text": "Construcciones especiales\nPara abreviar conjuntos de caracteres\n\\w letras, guión bajo, y números\n\\d dígitos\n\\ttabulación\n\\n saltos de línea\n\\s espacio\n\\b límite de palabra"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#límites-de-palabra",
+    "href": "presentaciones/expresiones-regulares.html#límites-de-palabra",
+    "title": "Expresiones regulares",
+    "section": "Límites de palabra",
+    "text": "Límites de palabra\n\\b\nMarca la posición en la que un caracter de palabra (letras, números, guión bajo) no va seguido o precedido por otro caracter de palabra (espacios o el inicio o fin de la cadena)\nEl límite de una palabra encontrada no se incluye en el resultado\nAntes de\n\\bmila encuentra “la milanesa” pero no “Camila”\nDespués de\narte\\b encuentra “saludarte hoy” pero no “artesanal”"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#ejercicio-3",
+    "href": "presentaciones/expresiones-regulares.html#ejercicio-3",
+    "title": "Expresiones regulares",
+    "section": "Ejercicio",
+    "text": "Ejercicio\n\nCon la entrada “Los tacos de canasta en Tabasco se abarrotaron”\n\nExpliquemos qué pasa cuando usamos estas tres E.R.\n\nta\n\n\\bta\n\nta\\b"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#combinaciones",
+    "href": "presentaciones/expresiones-regulares.html#combinaciones",
+    "title": "Expresiones regulares",
+    "section": "Combinaciones",
+    "text": "Combinaciones\n^can.* empata “can”, “canino”, “canasta”, y “canadiense”\nA.*n cualquier cadena de texto que empiece con “A” y termine con “n”\n^[a-z]+$ solo min núsculas\n\\w+\\b$ la última palabra en una cadena\n“12 de marzo”\n“Liomys pictus”\n^\\w+\\b primera palabra “12 de marzo”\n“Liomys pictus”"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#ejercicio-4",
+    "href": "presentaciones/expresiones-regulares.html#ejercicio-4",
+    "title": "Expresiones regulares",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nEmpatemos:\n\nOraciones que terminen con un punto\nCuatro dígitos\nCadenas sin la letra s"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#section-2",
+    "href": "presentaciones/expresiones-regulares.html#section-2",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "Podemos crear subconjuntos de filas y columnas mediante coincidencias entre expresiones regulares y nombres de variables o con sus valores"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#stringr",
+    "href": "presentaciones/expresiones-regulares.html#stringr",
+    "title": "Expresiones regulares",
+    "section": "📦 stringr",
+    "text": "📦 stringr\nFunciones para manipular cadenas de texto\n\nLos nombres de las funciones tienen el prefijo str_\nEl primer argumento de sus funciones es la cadena de texto de interés\nFunción regex() para modificar el comportamiento de búsqueda\n\nignore_case=TRUE para dejar de distinguir entre mayúsculas y minúsculas"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#stringr---ejemplos",
+    "href": "presentaciones/expresiones-regulares.html#stringr---ejemplos",
+    "title": "Expresiones regulares",
+    "section": "stringr - ejemplos",
+    "text": "stringr - ejemplos\n¿Coincidencias?\n\n\nstr_detect(string = c(\"catalogo\", \"aguacate\",\n\"pera\"),\n pattern = \"cat\")\n\n\n\nRegresa un vector V/F de la misma longitud que la entrada"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#stringr---más-ejemplos",
+    "href": "presentaciones/expresiones-regulares.html#stringr---más-ejemplos",
+    "title": "Expresiones regulares",
+    "section": "stringr - más ejemplos",
+    "text": "stringr - más ejemplos\n¿Cuáles elementos coinciden?\n\n\nstr_which(string = c(\"catalogo\", \"aguacate\", \"pera\"), pattern = \"cat\")\n\n\n\nRegresa el índice de los elemenots con coincidencias"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#stringr---reemplazar-coincidencias",
+    "href": "presentaciones/expresiones-regulares.html#stringr---reemplazar-coincidencias",
+    "title": "Expresiones regulares",
+    "section": "stringr - reemplazar coincidencias",
+    "text": "stringr - reemplazar coincidencias\n\n\nstr_replace(string = c(\"anthonyi\", \"daviesi\", \"jonesi\"),\n            pattern = \"i$\",\n            replacement = \"ii\")\n\n[1] \"anthonyii\" \"daviesii\"  \"jonesii\""
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#stringr---función-regex",
+    "href": "presentaciones/expresiones-regulares.html#stringr---función-regex",
+    "title": "Expresiones regulares",
+    "section": "stringr - función regex()",
+    "text": "stringr - función regex()\nSin distinción entre MAYUSCULAS y minúsculas\n\nstr_replace(string = c(\"anthonyI\", \"daviesi\", \"jonesi\"),\n            pattern = regex(\"i$\",ignore_case = TRUE),\n            replacement = \"ii\")\n\n[1] \"anthonyii\" \"daviesii\"  \"jonesii\""
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#ejercicio---stringr",
+    "href": "presentaciones/expresiones-regulares.html#ejercicio---stringr",
+    "title": "Expresiones regulares",
+    "section": "Ejercicio - stringr",
+    "text": "Ejercicio - stringr\nProbemos estas expresiones contra este vector usando str_detect. Explicar las coincidencias.\nE. regulares\n\n^ave\n\n^[a-z]+$\n\n\\d\n\n\nvec_texto &lt;- c(\"Aves y reptiles\",\"hamburguesa\",\n                 \"34\",\"(34)\",\"rAta\",\"avenida\",\n                 \"2011_julio\",\"inecol\",\"INECOL\")"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#manipulando-datos-con-expresiones-regulares",
+    "href": "presentaciones/expresiones-regulares.html#manipulando-datos-con-expresiones-regulares",
+    "title": "Expresiones regulares",
+    "section": "Manipulando datos con expresiones regulares",
+    "text": "Manipulando datos con expresiones regulares\n\nElegir/descartar filas y columnas\nReemplazar o modificar valores\nExtraer o borrar partes de cadenas de texto"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#expresiones-regulares-y-dplyr",
+    "href": "presentaciones/expresiones-regulares.html#expresiones-regulares-y-dplyr",
+    "title": "Expresiones regulares",
+    "section": "Expresiones regulares y 📦 dplyr",
+    "text": "Expresiones regulares y 📦 dplyr\n\nLa función auxiliar matches() acepta expresiones regulares para seleccionar variables que contengan coincidencias"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#seleccionando-variables",
+    "href": "presentaciones/expresiones-regulares.html#seleccionando-variables",
+    "title": "Expresiones regulares",
+    "section": "Seleccionando variables",
+    "text": "Seleccionando variables\nDatos de pingüinos pinguinos de 📦 datos\n\n\nlibrary(datos)\ndata(pinguinos)\nnames(pinguinos)\n\n[1] \"especie\"         \"isla\"            \"largo_pico_mm\"   \"alto_pico_mm\"   \n[5] \"largo_aleta_mm\"  \"masa_corporal_g\" \"sexo\"            \"anio\""
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#section-4",
+    "href": "presentaciones/expresiones-regulares.html#section-4",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "pinguinos %&gt;% \n  select(especie, matches(\"larg\")) %&gt;% \n  sample_n(3)\n\n# A tibble: 3 × 3\n  especie largo_pico_mm largo_aleta_mm\n  &lt;fct&gt;           &lt;dbl&gt;          &lt;int&gt;\n1 Adelia           39.6            191\n2 Adelia           38.6            199\n3 Papúa            49.5            224"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#filtrando-filas",
+    "href": "presentaciones/expresiones-regulares.html#filtrando-filas",
+    "title": "Expresiones regulares",
+    "section": "Filtrando filas",
+    "text": "Filtrando filas\nDatos de paises del paquete 📦 datos\n\nlibrary(datos)\ndata(paises)\n\n\n\npaises %&gt;% select(pais,continente) %&gt;% \n  sample_n(4)\n\n# A tibble: 4 × 2\n  pais       continente\n  &lt;fct&gt;      &lt;fct&gt;     \n1 Etiopía    África    \n2 Chad       África    \n3 Colombia   Américas  \n4 Montenegro Europa"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#coincidencias-en-filas",
+    "href": "presentaciones/expresiones-regulares.html#coincidencias-en-filas",
+    "title": "Expresiones regulares",
+    "section": "Coincidencias en filas",
+    "text": "Coincidencias en filas\nPaises con “z” en su nombre\n\npaises %&gt;% select(pais,continente) %&gt;% \n  filter(str_detect(pais,\"z\")) %&gt;% \n  distinct()\n\n# A tibble: 7 × 2\n  pais                 continente\n  &lt;fct&gt;                &lt;fct&gt;     \n1 Bosnia y Herzegovina Europa    \n2 Mozambique           África    \n3 Swazilandia          África    \n4 Suiza                Europa    \n5 Tanzania             África    \n6 Túnez                África    \n7 Venezuela            Américas"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#valores-repetidos",
+    "href": "presentaciones/expresiones-regulares.html#valores-repetidos",
+    "title": "Expresiones regulares",
+    "section": "Valores repetidos",
+    "text": "Valores repetidos\n\nDefinición variable pero generalmente dos o más copias del mismo registro u observación\n\nProblemas posibles\n\nInflán datos\nCostos de repetición no intencional\nResultados imprecisos"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#identificando-y-eliminando-duplicados",
+    "href": "presentaciones/expresiones-regulares.html#identificando-y-eliminando-duplicados",
+    "title": "Expresiones regulares",
+    "section": "Identificando y eliminando duplicados",
+    "text": "Identificando y eliminando duplicados\n\nIdentificar con get_dupes() del paquete 📦 janitor\nEliminar con distinct() de 📦 dplyr"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#repetición",
+    "href": "presentaciones/expresiones-regulares.html#repetición",
+    "title": "Expresiones regulares",
+    "section": "Repetición",
+    "text": "Repetición\n\nEn todas las variables (copias idénticas de una fila)\nEn las variables que definen nuestras unidades observacionales\nEn conjuntos arbitrarios de variables"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#section-5",
+    "href": "presentaciones/expresiones-regulares.html#section-5",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "ordenes_pizzadatos\n\n\n\n\n\n\n\n\n  \n    \n    \n      IDusuario\n      Direccion\n      Colonia\n      Alcaldia\n    \n  \n  \n    Pablitoo\nCafetal 395 Casa 2\nSan Angel\nA. Obregón\n    susana24\nFresnos 114\nSan Angel\nA. Obregón\n    susana24\nFresnos 114\nSan Angel\nA. Obregón\n    jd.adriana\nCafetal 395 Casa 8\nSan Angel\nA. Obregón\n    JuanManuel\nHidalgo 11 Depto 1B\nCampestre\nA. Obregón\n    JoaquinED\nHidalgo 11 Depto 1B\nCampestre\nA. Obregón\n    e_ric2\nHidalgo 11 Depto 1B\nCampestre\nA. Obregón\n  \n  \n  \n\n\n\n\n\n\n\nordenes_pizza &lt;- \ntibble::tribble(\n    ~IDusuario,            ~Direccion,    ~Colonia,    ~Alcaldia,\n    \"Pablitoo\",  \"Cafetal 395 Casa 2\", \"San Angel\", \"A. Obregón\",\n    \"susana24\",         \"Fresnos 114\", \"San Angel\", \"A. Obregón\",\n    \"susana24\",         \"Fresnos 114\", \"San Angel\", \"A. Obregón\",\n  \"jd.adriana\",  \"Cafetal 395 Casa 8\", \"San Angel\", \"A. Obregón\",\n  \"JuanManuel\", \"Hidalgo 11 Depto 1B\", \"Campestre\", \"A. Obregón\",\n   \"JoaquinED\", \"Hidalgo 11 Depto 1B\", \"Campestre\", \"A. Obregón\",\n      \"e_ric2\", \"Hidalgo 11 Depto 1B\", \"Campestre\", \"A. Obregón\"\n  )"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#identificar-con-get_dupes",
+    "href": "presentaciones/expresiones-regulares.html#identificar-con-get_dupes",
+    "title": "Expresiones regulares",
+    "section": "Identificar con get_dupes()",
+    "text": "Identificar con get_dupes()\n\nordenes_pizza %&gt;%\n  get_dupes() # todas las variables (por defecto)\n\n# A tibble: 2 × 5\n  IDusuario Direccion   Colonia   Alcaldia   dupe_count\n  &lt;chr&gt;     &lt;chr&gt;       &lt;chr&gt;     &lt;chr&gt;           &lt;int&gt;\n1 susana24  Fresnos 114 San Angel A. Obregón          2\n2 susana24  Fresnos 114 San Angel A. Obregón          2\n\n\n\nAñade una variable dupe_count que cuantifica las filas con valores duplicados\nAcomoda las variables de interés al principio del data frame resultante"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#section-6",
+    "href": "presentaciones/expresiones-regulares.html#section-6",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "get_dupes() asignando una variable para definir nuestra unidad observacional\n¿Alguien ordenó más de una vez?\n\nordenes_pizza %&gt;%\n  get_dupes(IDusuario)\n\n# A tibble: 2 × 5\n  IDusuario dupe_count Direccion   Colonia   Alcaldia  \n  &lt;chr&gt;          &lt;int&gt; &lt;chr&gt;       &lt;chr&gt;     &lt;chr&gt;     \n1 susana24           2 Fresnos 114 San Angel A. Obregón\n2 susana24           2 Fresnos 114 San Angel A. Obregón"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#section-7",
+    "href": "presentaciones/expresiones-regulares.html#section-7",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "get_dupes() con combinaciones de variables\n\nFilas repetidas en dirección * colonia\n\n\naccepta funciones auxiliares de 📦 tidyselect\n\n\nordenes_pizza %&gt;%\n  get_dupes(Direccion, starts_with(\"Col\"))\n\n# A tibble: 5 × 5\n  Direccion           Colonia   dupe_count IDusuario  Alcaldia  \n  &lt;chr&gt;               &lt;chr&gt;          &lt;int&gt; &lt;chr&gt;      &lt;chr&gt;     \n1 Hidalgo 11 Depto 1B Campestre          3 JuanManuel A. Obregón\n2 Hidalgo 11 Depto 1B Campestre          3 JoaquinED  A. Obregón\n3 Hidalgo 11 Depto 1B Campestre          3 e_ric2     A. Obregón\n4 Fresnos 114         San Angel          2 susana24   A. Obregón\n5 Fresnos 114         San Angel          2 susana24   A. Obregón"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#section-8",
+    "href": "presentaciones/expresiones-regulares.html#section-8",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "Descartar con distinct() de 📦 dplyr\n\n\nordenes_pizza %&gt;%\n  distinct() # todas las variables\n\n# A tibble: 6 × 4\n  IDusuario  Direccion           Colonia   Alcaldia  \n  &lt;chr&gt;      &lt;chr&gt;               &lt;chr&gt;     &lt;chr&gt;     \n1 Pablitoo   Cafetal 395 Casa 2  San Angel A. Obregón\n2 susana24   Fresnos 114         San Angel A. Obregón\n3 jd.adriana Cafetal 395 Casa 8  San Angel A. Obregón\n4 JuanManuel Hidalgo 11 Depto 1B Campestre A. Obregón\n5 JoaquinED  Hidalgo 11 Depto 1B Campestre A. Obregón\n6 e_ric2     Hidalgo 11 Depto 1B Campestre A. Obregón"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#section-9",
+    "href": "presentaciones/expresiones-regulares.html#section-9",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "distinct() con la variables que definen las unidades observacionales\n\nordenes_pizza %&gt;%\n  distinct(IDusuario, .keep_all = TRUE)\n\n# A tibble: 6 × 4\n  IDusuario  Direccion           Colonia   Alcaldia  \n  &lt;chr&gt;      &lt;chr&gt;               &lt;chr&gt;     &lt;chr&gt;     \n1 Pablitoo   Cafetal 395 Casa 2  San Angel A. Obregón\n2 susana24   Fresnos 114         San Angel A. Obregón\n3 jd.adriana Cafetal 395 Casa 8  San Angel A. Obregón\n4 JuanManuel Hidalgo 11 Depto 1B Campestre A. Obregón\n5 JoaquinED  Hidalgo 11 Depto 1B Campestre A. Obregón\n6 e_ric2     Hidalgo 11 Depto 1B Campestre A. Obregón\n\n\n\n.keep_all para retener o no las demás columnas"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#section-10",
+    "href": "presentaciones/expresiones-regulares.html#section-10",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "distinct() con combinaciones de variables\n\nCombinaciones únicas de dirección * colonia\n\n\nordenes_pizza %&gt;%\n  distinct(Direccion,Colonia)\n\n# A tibble: 4 × 2\n  Direccion           Colonia  \n  &lt;chr&gt;               &lt;chr&gt;    \n1 Cafetal 395 Casa 2  San Angel\n2 Fresnos 114         San Angel\n3 Cafetal 395 Casa 8  San Angel\n4 Hidalgo 11 Depto 1B Campestre"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#section-11",
+    "href": "presentaciones/expresiones-regulares.html#section-11",
+    "title": "Expresiones regulares",
+    "section": "",
+    "text": "⚠️ Si .keep_all = TRUE y hay valores duplicados en otras variables, distinct solo retiene la primera fila\n\n\nordenes_pizza %&gt;%\n  distinct(Direccion,Colonia, .keep_all = TRUE)\n\n# A tibble: 4 × 4\n  IDusuario  Direccion           Colonia   Alcaldia  \n  &lt;chr&gt;      &lt;chr&gt;               &lt;chr&gt;     &lt;chr&gt;     \n1 Pablitoo   Cafetal 395 Casa 2  San Angel A. Obregón\n2 susana24   Fresnos 114         San Angel A. Obregón\n3 jd.adriana Cafetal 395 Casa 8  San Angel A. Obregón\n4 JuanManuel Hidalgo 11 Depto 1B Campestre A. Obregón"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#ejercicio-5",
+    "href": "presentaciones/expresiones-regulares.html#ejercicio-5",
+    "title": "Expresiones regulares",
+    "section": "Ejercicio",
+    "text": "Ejercicio\n\nCargar el archivo murcielagos.csv\n¿De cuántas localidades únicas provienen estos registros?\nExportar un archivo con las localidades únicas y nombres de columna en español"
+  },
+  {
+    "objectID": "presentaciones/quarto.html",
+    "href": "presentaciones/quarto.html",
+    "title": "Creación de documentos con Quarto",
+    "section": "",
+    "text": "R 🔁 Word ➡️ Salida a PDF, HTML, etc.\n R ➡️ Salida a PDF, HTML, etc"
+  },
+  {
+    "objectID": "ejemplos/ej_doc_pinguinos.html",
+    "href": "ejemplos/ej_doc_pinguinos.html",
+    "title": "Demostración de geom_point",
+    "section": "",
+    "text": "Largo de aleta vs masa corporal\n\nlibrary(datos)\nlibrary(ggplot2)\nggplot(pinguinos,aes(largo_aleta_mm,masa_corporal_g))+geom_point()\n\n\n\n\ny aquí hay una imagen"
+  },
+  {
+    "objectID": "ejemplos/ej_doc_pinguinos.html#figura-con-geom_point",
+    "href": "ejemplos/ej_doc_pinguinos.html#figura-con-geom_point",
+    "title": "Demostración de geom_point",
+    "section": "",
+    "text": "Largo de aleta vs masa corporal\n\nlibrary(datos)\nlibrary(ggplot2)\nggplot(pinguinos,aes(largo_aleta_mm,masa_corporal_g))+geom_point()\n\n\n\n\ny aquí hay una imagen"
+  },
+  {
+    "objectID": "ejemplos/ej_pres_mascotas.html",
+    "href": "ejemplos/ej_pres_mascotas.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "mascotas &lt;- read.csv(\"https://raw.githubusercontent.com/biofreelancer/public_datasets/main/Rgym/mascotas.csv\")"
+  },
+  {
+    "objectID": "ejemplos/ej_pres_mascotas.html#mascotas-en-méxico-por-entidad-federativa",
+    "href": "ejemplos/ej_pres_mascotas.html#mascotas-en-méxico-por-entidad-federativa",
+    "title": "Untitled",
+    "section": "Mascotas en México por entidad federativa",
+    "text": "Mascotas en México por entidad federativa\nMascotas Número de mascotas por entidad federativa, según el tipo de mascota. Fuente: Instituto Nacional de Estadística y Geografía (Encuesta Nacional de Bienestar Autorreportado (ENBIARE) 2021).\nCompilado por I. Aguilar."
+  },
+  {
+    "objectID": "ejemplos/ej_pres_mascotas.html#cifras-totales",
+    "href": "ejemplos/ej_pres_mascotas.html#cifras-totales",
+    "title": "Untitled",
+    "section": "Cifras totales",
+    "text": "Cifras totales\nTodo\n\nsum(mascotas$Total) \n\n[1] 79977353\n\n\nGatos\n\nsum(mascotas$Perro) \n\n[1] 43756372"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#temas-de-este-bloque",
+    "href": "presentaciones/programacion.html#temas-de-este-bloque",
+    "title": "Programación y reproducibilidad",
+    "section": "Temas de este bloque:",
+    "text": "Temas de este bloque:\n– Entornos de trabajo y configuración\n– Iteración y vectorización para evitar repetición\n– Trabajando con listas\n– Atajos y herramientas para mayor eficiencia\n– Errores comunes y cómo buscar soluciones"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#personalización",
+    "href": "presentaciones/programacion.html#personalización",
+    "title": "Programación y reproducibilidad",
+    "section": "Personalización",
+    "text": "Personalización\n\nColores para el IDE - 🔗 tmThemeEditor por Allen Bargi\n\n\n\nNadie nos va a tomar en serio en la cafetería si no programamos con un fondo oscuro\n\n\n-Jared Lander\n📼 R: Then and now\n\n\n\nFuentes y texto - 🔗 Nerd Fonts\nDisposición de los páneles"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#personalizando-el-arranque-en-r",
+    "href": "presentaciones/programacion.html#personalizando-el-arranque-en-r",
+    "title": "Programación y reproducibilidad",
+    "section": "Personalizando el arranque en R",
+    "text": "Personalizando el arranque en R\nEl archivo .Rprofile file contiene código que se ejecuta cada que arrancamos R.\n .Rprofile generalmente vive en nuestro directorio de inicio\nPodemos modificarlo con usethis::edit_r_profile()\nUsar con precaución para no perder reproducibilidad\n\n\nR Startup\nWhat they forgot to teach you about R"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#arranque",
+    "href": "presentaciones/programacion.html#arranque",
+    "title": "Programación y reproducibilidad",
+    "section": "Arranque",
+    "text": "Arranque\n\nSaludos o recordatorios con cowsay\n\n\n#&gt;  ----- \n#&gt; No olviden tomar mucha agua \n#&gt;  ------ \n#&gt;     \\   \n#&gt;      \\\n#&gt;   &gt;&lt;((((º&gt;  &gt;&lt;((((º&gt;  &gt;&lt;((((º&gt;  &gt;&lt;((((º&gt;  &gt;&lt;((((º&gt;\n#&gt;       \n\n\nAyuda con errores de dedo con fcuk\n\n\n&gt; lenght(1:12)\nError in lenght(1:12) : could not find function \"lenght\"\n&gt; fcuk::init_error_tracker()\n&gt; lenght(1:12)\nError in lenght(1:12) : could not find function \"lenght\"\nDid you mean : length or ...length ?"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#aplicando-una-función-varias-veces",
+    "href": "presentaciones/programacion.html#aplicando-una-función-varias-veces",
+    "title": "Programación y reproducibilidad",
+    "section": "Aplicando una función varias veces",
+    "text": "Aplicando una función varias veces\nCopiar/pegar código para editarlo en análisis repetitivos agrega pasos innecesarios, pierde tiempo, y aumenta el riesgo de introducir errores\n\n\n\nNick Holt (2017)\nFunction Iterations in R"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#ejercicio---futbol",
+    "href": "presentaciones/programacion.html#ejercicio---futbol",
+    "title": "Programación y reproducibilidad",
+    "section": "Ejercicio - futbol",
+    "text": "Ejercicio - futbol\nEl archivo tabla_futbol.csv contiene la clasifición en la tabla global de la FIFA de los primeros 20 países de 1994 a 2022. Agrupa paises en diferentes confederaciones.\n\n¿De qué confederación fue el equipo 20 cada año?\nej. para 1994 Zambia fue #20 y su confederación es “CAF”"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#section",
+    "href": "presentaciones/programacion.html#section",
+    "title": "Programación y reproducibilidad",
+    "section": "",
+    "text": "Copiando, pegando, y editando\n\nranking1994 &lt;- fifa20esp[fifa20esp$periodo==\"1994-06-14\",]\npais201994 &lt;- ranking1994[ranking1994$posicion==20,]$pais\npais201994\nranking1995 &lt;- fifa20esp[fifa20esp$periodo==\"1995-06-13\",]\npais201995 &lt;- ranking1995[ranking1995$posicion==20,]$pais\npais201995\n\n\nSiguiendo así seguramente introducimos algún error poco evidente y difícil de detectar"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#datos-agrupados",
+    "href": "presentaciones/programacion.html#datos-agrupados",
+    "title": "Programación y reproducibilidad",
+    "section": "Datos agrupados",
+    "text": "Datos agrupados\nLa mayoría de nuestras tareas se pueden desarrollar siguiendo el paradigma “dividir-aplicar-combinar” ( “split-apply-combine”):\n\ndividir los datos en grupos\naplicar alguna función a cada grupo\ncombinar los resultados\n\n\n\nData Carpentry (2018)\nAggregating and analyzing data with dplyr\nHadley Wickham (2011)\nThe split-apply-combine strategy for data analysis"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#dplyrgroup_by",
+    "href": "presentaciones/programacion.html#dplyrgroup_by",
+    "title": "Programación y reproducibilidad",
+    "section": "dplyr::group_by()",
+    "text": "dplyr::group_by()\n\nDefine grupos según una o más variables\n\nEstratifica un data frame\n\nequivalente a aggregate() y al argumento ‘by =’ de data.table\n\n\nManipulación de datos en R con dplyr - Rubén Sánchez"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#trabajando-con-datos-agrupados",
+    "href": "presentaciones/programacion.html#trabajando-con-datos-agrupados",
+    "title": "Programación y reproducibilidad",
+    "section": "Trabajando con datos agrupados",
+    "text": "Trabajando con datos agrupados\nCon la versión agrupada de nuestra tabla, las funciones de dplyr trabajan sobre cada grupo por separado y después se combinan los resultados.\n\n\n\nRStudio (2021)\nData transformation with dplyr cheatsheet"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#opciones-para-datos-agrupados",
+    "href": "presentaciones/programacion.html#opciones-para-datos-agrupados",
+    "title": "Programación y reproducibilidad",
+    "section": "Opciones para datos agrupados",
+    "text": "Opciones para datos agrupados\n\nresumir valores (media, mediana, etc. por grupo)\nextraer las primeras o últimas n filas por grupo\nidentificar valores máximos o mínimos\neliminar filas repetidas\ncontar observaciones, etc."
+  },
+  {
+    "objectID": "presentaciones/programacion.html#datos-msleep",
+    "href": "presentaciones/programacion.html#datos-msleep",
+    "title": "Programación y reproducibilidad",
+    "section": "Datos msleep",
+    "text": "Datos msleep\nRasgos de 83 especies de mamíferos y sus horas de sueño. derivados de Savage & West (2007) e incluidos con ggplot2.\n\n\n\n\n\n\n  \n    \n    \n      name\n      genus\n      vore\n      order\n      conservation\n      sleep_total\n      sleep_rem\n      sleep_cycle\n      awake\n      brainwt\n      bodywt\n    \n  \n  \n    Cheetah\nAcinonyx\ncarni\nCarnivora\nlc\n12.1\nNA\nNA\n11.9\nNA\n50.000\n    Owl monkey\nAotus\nomni\nPrimates\nNA\n17.0\n1.8\nNA\n7.0\n0.01550\n0.480\n    Mountain beaver\nAplodontia\nherbi\nRodentia\nnt\n14.4\n2.4\nNA\n9.6\nNA\n1.350\n    Greater short-tailed shrew\nBlarina\nomni\nSoricomorpha\nlc\n14.9\n2.3\n0.1333333\n9.1\n0.00029\n0.019\n    Cow\nBos\nherbi\nArtiodactyla\ndomesticated\n4.0\n0.7\n0.6666667\n20.0\n0.42300\n600.000\n    Three-toed sloth\nBradypus\nherbi\nPilosa\nNA\n14.4\n2.2\n0.7666667\n9.6\nNA\n3.850"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#máximo-brainwt-para-cada-orden",
+    "href": "presentaciones/programacion.html#máximo-brainwt-para-cada-orden",
+    "title": "Programación y reproducibilidad",
+    "section": "Máximo brainwt para cada orden",
+    "text": "Máximo brainwt para cada orden\n\n\nmsleep %&gt;% group_by(order) %&gt;% \n  slice_max(brainwt,n=1)\n\n\n\n# A tibble: 21 × 11\n# Groups:   order [19]\n   name   genus vore  order conservation sleep_total sleep_rem sleep_cycle awake\n   &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt;\n 1 Tenrec Tenr… omni  Afro… &lt;NA&gt;                15.6       2.3      NA       8.4\n 2 Cow    Bos   herbi Arti… domesticated         4         0.7       0.667  20  \n 3 Gray … Hali… carni Carn… lc                   6.2       1.5      NA      17.8\n 4 Pilot… Glob… carni Ceta… cd                   2.7       0.1      NA      21.4\n 5 Commo… Phoc… carni Ceta… vu                   5.6      NA        NA      18.4\n 6 Bottl… Turs… carni Ceta… &lt;NA&gt;                 5.2      NA        NA      18.8\n 7 Big b… Epte… inse… Chir… lc                  19.7       3.9       0.117   4.3\n 8 Giant… Prio… inse… Cing… en                  18.1       6.1      NA       5.9\n 9 North… Dide… omni  Dide… lc                  18         4.9       0.333   6  \n10 Phala… Phal… &lt;NA&gt;  Dipr… &lt;NA&gt;                13.7       1.8      NA      10.3\n# ℹ 11 more rows\n# ℹ 2 more variables: brainwt &lt;dbl&gt;, bodywt &lt;dbl&gt;"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#muestrar-una-fila-al-azar-de-cada-grupo",
+    "href": "presentaciones/programacion.html#muestrar-una-fila-al-azar-de-cada-grupo",
+    "title": "Programación y reproducibilidad",
+    "section": "Muestrar una fila al azar de cada grupo",
+    "text": "Muestrar una fila al azar de cada grupo\n\n\nmsleep %&gt;% group_by(order) %&gt;% \n  slice_sample(n=1)\n\n\n\n# A tibble: 19 × 11\n# Groups:   order [19]\n   name   genus vore  order conservation sleep_total sleep_rem sleep_cycle awake\n   &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt;\n 1 Tenrec Tenr… omni  Afro… &lt;NA&gt;                15.6       2.3      NA       8.4\n 2 Pig    Sus   omni  Arti… domesticated         9.1       2.4       0.5    14.9\n 3 Dog    Canis carni Carn… domesticated        10.1       2.9       0.333  13.9\n 4 Bottl… Turs… carni Ceta… &lt;NA&gt;                 5.2      NA        NA      18.8\n 5 Big b… Epte… inse… Chir… lc                  19.7       3.9       0.117   4.3\n 6 Giant… Prio… inse… Cing… en                  18.1       6.1      NA       5.9\n 7 North… Dide… omni  Dide… lc                  18         4.9       0.333   6  \n 8 Phala… Phal… &lt;NA&gt;  Dipr… &lt;NA&gt;                13.7       1.8      NA      10.3\n 9 Deser… Para… &lt;NA&gt;  Erin… lc                  10.3       2.7      NA      13.7\n10 Tree … Dend… herbi Hyra… lc                   5.3       0.5      NA      18.7\n11 Rabbit Oryc… herbi Lago… domesticated         8.4       0.9       0.417  15.6\n12 Short… Tach… inse… Mono… &lt;NA&gt;                 8.6      NA        NA      15.4\n13 Donkey Equus herbi Peri… domesticated         3.1       0.4      NA      20.9\n14 Three… Brad… herbi Pilo… &lt;NA&gt;                14.4       2.2       0.767   9.6\n15 Baboon Papio omni  Prim… &lt;NA&gt;                 9.4       1         0.667  14.6\n16 Afric… Loxo… herbi Prob… vu                   3.3      NA        NA      20.7\n17 Golde… Sper… herbi Rode… lc                  15.9       3        NA       8.1\n18 Tree … Tupa… omni  Scan… &lt;NA&gt;                 8.9       2.6       0.233  15.1\n19 Musk … Sunc… &lt;NA&gt;  Sori… &lt;NA&gt;                12.8       2         0.183  11.2\n# ℹ 2 more variables: brainwt &lt;dbl&gt;, bodywt &lt;dbl&gt;"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#resumiendo-valores",
+    "href": "presentaciones/programacion.html#resumiendo-valores",
+    "title": "Programación y reproducibilidad",
+    "section": "Resumiendo valores",
+    "text": "Resumiendo valores\n\n\nmsleep %&gt;% group_by(order) %&gt;% \n  summarize(mediana_slp = median(sleep_total),\n            media_brainwt=mean(brainwt))\n\n\n\n# A tibble: 19 × 3\n   order           mediana_slp media_brainwt\n   &lt;chr&gt;                 &lt;dbl&gt;         &lt;dbl&gt;\n 1 Afrosoricida           15.6      0.0026  \n 2 Artiodactyla            3.9     NA       \n 3 Carnivora              10.2     NA       \n 4 Cetacea                 5.2     NA       \n 5 Chiroptera             19.8      0.000275\n 6 Cingulata              17.8      0.0459  \n 7 Didelphimorphia        18.7     NA       \n 8 Diprotodontia          12.4     NA       \n 9 Erinaceomorpha         10.2      0.00295 \n10 Hyracoidea              5.4      0.0152  \n11 Lagomorpha              8.4      0.0121  \n12 Monotremata             8.6      0.025   \n13 Perissodactyla          3.1      0.414   \n14 Pilosa                 14.4     NA       \n15 Primates                9.9     NA       \n16 Proboscidea             3.6      5.16    \n17 Rodentia               12.9     NA       \n18 Scandentia              8.9      0.0025  \n19 Soricomorpha           10.3      0.000592"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#bucles-for-loops",
+    "href": "presentaciones/programacion.html#bucles-for-loops",
+    "title": "Programación y reproducibilidad",
+    "section": "Bucles (for loops)",
+    "text": "Bucles (for loops)\n\nDe gran utilidad\nNo siempre es necesario escribirlos de 0\n\n\n\n\n\n\n\nJenny Bryan\npurrr tutorial\nData Rectangling\npurrr workshop"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#bucles",
+    "href": "presentaciones/programacion.html#bucles",
+    "title": "Programación y reproducibilidad",
+    "section": "Bucles",
+    "text": "Bucles\n\n\n\n\nfor (value in sequence){\n   statement(s)\n}\n\n\nExecuta una serie de enunciados (statements), una vez para cada elemento de un vector o lista. Se detiene al llegar al último elemento.\n\n\n\nfor (x in 1:7){\n  print(x)\n} \n\n[1] 1\n[1] 2\n[1] 3\n[1] 4\n[1] 5\n[1] 6\n[1] 7"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#ejercicio---loops",
+    "href": "presentaciones/programacion.html#ejercicio---loops",
+    "title": "Programación y reproducibilidad",
+    "section": "Ejercicio - loops",
+    "text": "Ejercicio - loops\nEscribir un bucle para imprimir en la consola cada letra del alfabeto, en minúscula y en orden descendiente (z,y,x,w…) \n\n\n\n\n\n\n\n\n\nhay constantes preinstaladas en R que les pueden servir"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#bucles-y-grupos",
+    "href": "presentaciones/programacion.html#bucles-y-grupos",
+    "title": "Programación y reproducibilidad",
+    "section": "Bucles y grupos",
+    "text": "Bucles y grupos\n\n\nmsleep %&gt;% \n  group_by(order) %&gt;% # para cada orden\n  slice_sample(1) # declaración a ejecutar \n\n\nTodo se queda dentro del data frame"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#vectorización",
+    "href": "presentaciones/programacion.html#vectorización",
+    "title": "Programación y reproducibilidad",
+    "section": "Vectorización",
+    "text": "Vectorización\nOperaciones que ocurren en paralelo en todos los elementos (de un vector, lista, etc.) y no uno por uno en cada elemento\n¿Aquí qué pasa?\n\n\nx &lt;- c(1,3,12,4,7,8)\nx &gt; 5"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#los-operadores-lógicos-entre-muchos-otros-son-vectorizados",
+    "href": "presentaciones/programacion.html#los-operadores-lógicos-entre-muchos-otros-son-vectorizados",
+    "title": "Programación y reproducibilidad",
+    "section": "Los operadores lógicos (entre muchos otros) son vectorizados",
+    "text": "Los operadores lógicos (entre muchos otros) son vectorizados\n\n\nx &lt;- c(1,3,12,4,7,8)\nx &gt; 5\n\n[1] FALSE FALSE  TRUE FALSE  TRUE  TRUE\n\n\n\nNo hace falta teclear todo ésto o escribir un bucle\n\n\nx[1]&gt;5 ; x[2]&gt;5\nx[3]&gt;5 ; x[4]&gt;5\nx[5]&gt;5 ; x[6]&gt;5"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#cuando-sí-necesitemos-iterar",
+    "href": "presentaciones/programacion.html#cuando-sí-necesitemos-iterar",
+    "title": "Programación y reproducibilidad",
+    "section": "Cuando sí necesitemos iterar:",
+    "text": "Cuando sí necesitemos iterar:\n\n\n\n\n📦 purrr - Herramientas para programación funcional\n\nfunciones map que aplican una función a cada elemento de un input y devuelve un resultado de la misma longitud que el input\ntrabaja bien con listas\ncódigo legible y conciso\n\n\n\n\n\nThomas Mock (2018)\nFunctional Programming in R with purrr"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#mapeando-funciones-a-datos",
+    "href": "presentaciones/programacion.html#mapeando-funciones-a-datos",
+    "title": "Programación y reproducibilidad",
+    "section": "“Mapeando” funciones a datos",
+    "text": "“Mapeando” funciones a datos\n map(.x,.f)\n.f se puede especificar como:\n\n\nuna función existente\nuna función anónima definida sobre la marcha\nuna fórmula: notación abreviada para funciones\nuna función anónima abreviada (shorthand) en versiones recientes de R"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#funciones",
+    "href": "presentaciones/programacion.html#funciones",
+    "title": "Programación y reproducibilidad",
+    "section": "Funciones",
+    "text": "Funciones\n\nLearn by Example.com"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#definiendo-funciones",
+    "href": "presentaciones/programacion.html#definiendo-funciones",
+    "title": "Programación y reproducibilidad",
+    "section": "Definiendo funciones",
+    "text": "Definiendo funciones\nusamos la función ‘function()’\nfunction( arglist ) expr\n\nargumentos (arglist): valores para la función\nexpresión (expr): un objeto que representa una acción que R puede hacer\n\n\n\n\n\n\n\n\n\nLas expresiones pueden tener una o maś declaraciones"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#definiendo-funciones-1",
+    "href": "presentaciones/programacion.html#definiendo-funciones-1",
+    "title": "Programación y reproducibilidad",
+    "section": "Definiendo funciones",
+    "text": "Definiendo funciones\n\n\nmi_funcion &lt;- function(mi_argumento){\n  mi_argumento+1 # declaración\n}\n\nmi_vector &lt;- c(3,5,6,7)\n\nmi_funcion(mi_argumento = mi_vector)\n\n[1] 4 6 7 8"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#funciones-anónimas",
+    "href": "presentaciones/programacion.html#funciones-anónimas",
+    "title": "Programación y reproducibilidad",
+    "section": "Funciones anónimas",
+    "text": "Funciones anónimas\nFunciones para llevar (se crean y se ejecutan pero nunca se asignan a un objeto con nombre)\nSintaxis\n\n\n(function(x) x * x + 3)(10)\n\n[1] 103\n\n\n\nLa definición va entre paréntesis para separar la función de sus argumentos"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#notation-corta-desde-r-v4.1.0",
+    "href": "presentaciones/programacion.html#notation-corta-desde-r-v4.1.0",
+    "title": "Programación y reproducibilidad",
+    "section": "Notation corta (desde R v4.1.0)",
+    "text": "Notation corta (desde R v4.1.0)\nReemplaza “function(x) {}” con “\\(x){}”\n\n\n(\\(x) x + 3)(10)\n\n[1] 13\n\n(\\(x) x / 2)(10)\n\n[1] 5\n\n\n\n\n\nRuss Hyde (2021)\nNew features in R 4.1.0\n\n\n\n\n\n\n\n\n\n\n\nLos desarroladores del tidyverse están migrando al uso de esta notación"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#funciones-anónimas-1",
+    "href": "presentaciones/programacion.html#funciones-anónimas-1",
+    "title": "Programación y reproducibilidad",
+    "section": "Funciones anónimas",
+    "text": "Funciones anónimas\n\nÚtiles para aplicar una función personalizada a varios elementos a la vez\nTambién conocidas como expresiones lambda\nAutocontenidas\nComparables con métodos parecidos en Python"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#por-qué-escribir-nuestras-propias-funciones",
+    "href": "presentaciones/programacion.html#por-qué-escribir-nuestras-propias-funciones",
+    "title": "Programación y reproducibilidad",
+    "section": "Por qué escribir nuestras propias funciones",
+    "text": "Por qué escribir nuestras propias funciones\n\nMenos repetición\nMayor brevedad\nMenor posibilidad de errores\nAprovechar las herramientas que nos dejan aplicar funciones a muchos elementos a la vez\n\n\n\nJenny Bryan - Stat545\nWrite your own R functions"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#listas-1",
+    "href": "presentaciones/programacion.html#listas-1",
+    "title": "Programación y reproducibilidad",
+    "section": "Listas",
+    "text": "Listas\nObjetos que pueden contenter elementos de diferentes tipos como números, cadenas de texto, vectors, tablas, o incluso más listas\n\n\nmi_lista &lt;- list(\n  un_numero = 7,\n  un_vector = c(\"rata\", \"gato\", \"taco\"),\n  un_dataframe = data.frame(\n    a = 1:3, b = c(\"K\", \"L\", \"M\")))\n\n\n\n\nRebecca Barter (2019)\nLearn to purrr"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#podemos-creas-listas-partiendo-otros-objetos",
+    "href": "presentaciones/programacion.html#podemos-creas-listas-partiendo-otros-objetos",
+    "title": "Programación y reproducibilidad",
+    "section": "Podemos creas listas partiendo otros objetos",
+    "text": "Podemos creas listas partiendo otros objetos\nSeparando una data frame agrupada en una lista de data frames, una para cada grupo.\n\ngremios &lt;- \n  msleep %&gt;% group_by(vore) %&gt;%\n  group_split()"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#section-4",
+    "href": "presentaciones/programacion.html#section-4",
+    "title": "Programación y reproducibilidad",
+    "section": "",
+    "text": "gremios\n\n&lt;list_of&lt;\n  tbl_df&lt;\n    name        : character\n    genus       : character\n    vore        : character\n    order       : character\n    conservation: character\n    sleep_total : double\n    sleep_rem   : double\n    sleep_cycle : double\n    awake       : double\n    brainwt     : double\n    bodywt      : double\n  &gt;\n&gt;[5]&gt;\n[[1]]\n# A tibble: 19 × 11\n   name   genus vore  order conservation sleep_total sleep_rem sleep_cycle awake\n   &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt;\n 1 Cheet… Acin… carni Carn… lc                  12.1      NA        NA      11.9\n 2 North… Call… carni Carn… vu                   8.7       1.4       0.383  15.3\n 3 Dog    Canis carni Carn… domesticated        10.1       2.9       0.333  13.9\n 4 Long-… Dasy… carni Cing… lc                  17.4       3.1       0.383   6.6\n 5 Domes… Felis carni Carn… domesticated        12.5       3.2       0.417  11.5\n 6 Pilot… Glob… carni Ceta… cd                   2.7       0.1      NA      21.4\n 7 Gray … Hali… carni Carn… lc                   6.2       1.5      NA      17.8\n 8 Thick… Lutr… carni Dide… lc                  19.4       6.6      NA       4.6\n 9 Slow … Nyct… carni Prim… &lt;NA&gt;                11        NA        NA      13  \n10 North… Onyc… carni Rode… lc                  14.5      NA        NA       9.5\n11 Tiger  Pant… carni Carn… en                  15.8      NA        NA       8.2\n12 Jaguar Pant… carni Carn… nt                  10.4      NA        NA      13.6\n13 Lion   Pant… carni Carn… vu                  13.5      NA        NA      10.5\n14 Caspi… Phoca carni Carn… vu                   3.5       0.4      NA      20.5\n15 Commo… Phoc… carni Ceta… vu                   5.6      NA        NA      18.4\n16 Bottl… Turs… carni Ceta… &lt;NA&gt;                 5.2      NA        NA      18.8\n17 Genet  Gene… carni Carn… &lt;NA&gt;                 6.3       1.3      NA      17.7\n18 Arcti… Vulp… carni Carn… &lt;NA&gt;                12.5      NA        NA      11.5\n19 Red f… Vulp… carni Carn… &lt;NA&gt;                 9.8       2.4       0.35   14.2\n# ℹ 2 more variables: brainwt &lt;dbl&gt;, bodywt &lt;dbl&gt;\n\n[[2]]\n# A tibble: 32 × 11\n   name   genus vore  order conservation sleep_total sleep_rem sleep_cycle awake\n   &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt;\n 1 Mount… Aplo… herbi Rode… nt                  14.4       2.4      NA       9.6\n 2 Cow    Bos   herbi Arti… domesticated         4         0.7       0.667  20  \n 3 Three… Brad… herbi Pilo… &lt;NA&gt;                14.4       2.2       0.767   9.6\n 4 Roe d… Capr… herbi Arti… lc                   3        NA        NA      21  \n 5 Goat   Capri herbi Arti… lc                   5.3       0.6      NA      18.7\n 6 Guine… Cavis herbi Rode… domesticated         9.4       0.8       0.217  14.6\n 7 Chinc… Chin… herbi Rode… domesticated        12.5       1.5       0.117  11.5\n 8 Tree … Dend… herbi Hyra… lc                   5.3       0.5      NA      18.7\n 9 Asian… Elep… herbi Prob… en                   3.9      NA        NA      20.1\n10 Horse  Equus herbi Peri… domesticated         2.9       0.6       1      21.1\n# ℹ 22 more rows\n# ℹ 2 more variables: brainwt &lt;dbl&gt;, bodywt &lt;dbl&gt;\n\n[[3]]\n# A tibble: 5 × 11\n  name    genus vore  order conservation sleep_total sleep_rem sleep_cycle awake\n  &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt;\n1 Big br… Epte… inse… Chir… lc                  19.7       3.9       0.117   4.3\n2 Little… Myot… inse… Chir… &lt;NA&gt;                19.9       2         0.2     4.1\n3 Giant … Prio… inse… Cing… en                  18.1       6.1      NA       5.9\n4 Easter… Scal… inse… Sori… lc                   8.4       2.1       0.167  15.6\n5 Short-… Tach… inse… Mono… &lt;NA&gt;                 8.6      NA        NA      15.4\n# ℹ 2 more variables: brainwt &lt;dbl&gt;, bodywt &lt;dbl&gt;\n\n[[4]]\n# A tibble: 20 × 11\n   name   genus vore  order conservation sleep_total sleep_rem sleep_cycle awake\n   &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt;\n 1 Owl m… Aotus omni  Prim… &lt;NA&gt;                17         1.8      NA       7  \n 2 Great… Blar… omni  Sori… lc                  14.9       2.3       0.133   9.1\n 3 Grivet Cerc… omni  Prim… lc                  10         0.7      NA      14  \n 4 Star-… Cond… omni  Sori… lc                  10.3       2.2      NA      13.7\n 5 Afric… Cric… omni  Rode… &lt;NA&gt;                 8.3       2        NA      15.7\n 6 Lesse… Cryp… omni  Sori… lc                   9.1       1.4       0.15   14.9\n 7 North… Dide… omni  Dide… lc                  18         4.9       0.333   6  \n 8 Europ… Erin… omni  Erin… lc                  10.1       3.5       0.283  13.9\n 9 Patas… Eryt… omni  Prim… lc                  10.9       1.1      NA      13.1\n10 Galago Gala… omni  Prim… &lt;NA&gt;                 9.8       1.1       0.55   14.2\n11 Human  Homo  omni  Prim… &lt;NA&gt;                 8         1.9       1.5    16  \n12 Macaq… Maca… omni  Prim… &lt;NA&gt;                10.1       1.2       0.75   13.9\n13 Chimp… Pan   omni  Prim… &lt;NA&gt;                 9.7       1.4       1.42   14.3\n14 Baboon Papio omni  Prim… &lt;NA&gt;                 9.4       1         0.667  14.6\n15 Potto  Pero… omni  Prim… lc                  11        NA        NA      13  \n16 Afric… Rhab… omni  Rode… &lt;NA&gt;                 8.7      NA        NA      15.3\n17 Squir… Saim… omni  Prim… &lt;NA&gt;                 9.6       1.4      NA      14.4\n18 Pig    Sus   omni  Arti… domesticated         9.1       2.4       0.5    14.9\n19 Tenrec Tenr… omni  Afro… &lt;NA&gt;                15.6       2.3      NA       8.4\n20 Tree … Tupa… omni  Scan… &lt;NA&gt;                 8.9       2.6       0.233  15.1\n# ℹ 2 more variables: brainwt &lt;dbl&gt;, bodywt &lt;dbl&gt;\n\n[[5]]\n# A tibble: 7 × 11\n  name    genus vore  order conservation sleep_total sleep_rem sleep_cycle awake\n  &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt;\n1 Vesper… Calo… &lt;NA&gt;  Rode… &lt;NA&gt;                 7        NA        NA      17  \n2 Desert… Para… &lt;NA&gt;  Erin… lc                  10.3       2.7      NA      13.7\n3 Deer m… Pero… &lt;NA&gt;  Rode… &lt;NA&gt;                11.5      NA        NA      12.5\n4 Phalan… Phal… &lt;NA&gt;  Dipr… &lt;NA&gt;                13.7       1.8      NA      10.3\n5 Rock h… Proc… &lt;NA&gt;  Hyra… lc                   5.4       0.5      NA      18.6\n6 Mole r… Spal… &lt;NA&gt;  Rode… &lt;NA&gt;                10.6       2.4      NA      13.4\n7 Musk s… Sunc… &lt;NA&gt;  Sori… &lt;NA&gt;                12.8       2         0.183  11.2\n# ℹ 2 more variables: brainwt &lt;dbl&gt;, bodywt &lt;dbl&gt;"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#section-5",
+    "href": "presentaciones/programacion.html#section-5",
+    "title": "Programación y reproducibilidad",
+    "section": "",
+    "text": "class(gremios)\n\n[1] \"vctrs_list_of\" \"vctrs_vctr\"    \"list\""
+  },
+  {
+    "objectID": "presentaciones/programacion.html#section-6",
+    "href": "presentaciones/programacion.html#section-6",
+    "title": "Programación y reproducibilidad",
+    "section": "",
+    "text": "group_keys() regresa los grupos\n\n\nmsleep %&gt;% group_by(vore) %&gt;%\n  group_keys()\n\n# A tibble: 5 × 1\n  vore   \n  &lt;chr&gt;  \n1 carni  \n2 herbi  \n3 insecti\n4 omni   \n5 &lt;NA&gt;"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#indexando-listas",
+    "href": "presentaciones/programacion.html#indexando-listas",
+    "title": "Programación y reproducibilidad",
+    "section": "‘Indexando’ listas",
+    "text": "‘Indexando’ listas\n\nHadley Wickam (2015) en Twitter"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#accediendo-a-elementos-de-listas",
+    "href": "presentaciones/programacion.html#accediendo-a-elementos-de-listas",
+    "title": "Programación y reproducibilidad",
+    "section": "Accediendo a elementos de listas",
+    "text": "Accediendo a elementos de listas\nPrimer elemento ([[1]])\n\ngremios[[1]] %&gt;% \n  select(name,genus) %&gt;% head\n\n# A tibble: 6 × 2\n  name                 genus        \n  &lt;chr&gt;                &lt;chr&gt;        \n1 Cheetah              Acinonyx     \n2 Northern fur seal    Callorhinus  \n3 Dog                  Canis        \n4 Long-nosed armadillo Dasypus      \n5 Domestic cat         Felis        \n6 Pilot whale          Globicephalus"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#segundo-elemento",
+    "href": "presentaciones/programacion.html#segundo-elemento",
+    "title": "Programación y reproducibilidad",
+    "section": "Segundo elemento",
+    "text": "Segundo elemento\n\ngremios[[2]] %&gt;% \n  select(name,genus, vore, conservation) %&gt;% \n  head\n\n# A tibble: 6 × 4\n  name             genus      vore  conservation\n  &lt;chr&gt;            &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;       \n1 Mountain beaver  Aplodontia herbi nt          \n2 Cow              Bos        herbi domesticated\n3 Three-toed sloth Bradypus   herbi &lt;NA&gt;        \n4 Roe deer         Capreolus  herbi lc          \n5 Goat             Capri      herbi lc          \n6 Guinea pig       Cavis      herbi domesticated"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#section-7",
+    "href": "presentaciones/programacion.html#section-7",
+    "title": "Programación y reproducibilidad",
+    "section": "",
+    "text": "Luis (2017)\nExport Iteratively"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#para-qué-usar-listas",
+    "href": "presentaciones/programacion.html#para-qué-usar-listas",
+    "title": "Programación y reproducibilidad",
+    "section": "¿Para qué usar listas?",
+    "text": "¿Para qué usar listas?\n\nClase versatil para almanecir varios tipos de objetos\nFáciles de crear partiendo otros objetos\nCada elemento puede tener nombre"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#mapeo-de-funciones-a-datos",
+    "href": "presentaciones/programacion.html#mapeo-de-funciones-a-datos",
+    "title": "Programación y reproducibilidad",
+    "section": "‘Mapeo’ de funciones a datos",
+    "text": "‘Mapeo’ de funciones a datos\n\nAplicar funciones iterativamente\nImportar varios archivos en un solo comando\nModificar y/o exportar múltiples objetos"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#aplicar-funciones-iterativamente",
+    "href": "presentaciones/programacion.html#aplicar-funciones-iterativamente",
+    "title": "Programación y reproducibilidad",
+    "section": "Aplicar funciones iterativamente",
+    "text": "Aplicar funciones iterativamente\n\nlibrary(datos)\nlibrary(purrr)\n# tres vectores (numéricos)\nmasa &lt;- pinguinos$masa_corporal_g\npico &lt;- pinguinos$largo_pico_mm\naleta &lt;- pinguinos$largo_aleta_mm\n# juntarlos en una lista\nrasgos &lt;- list(masa,pico,aleta)\n# aplicar la función \"mean\" a cada elemento\nmap(rasgos,mean)\n\n[[1]]\n[1] NA\n\n[[2]]\n[1] NA\n\n[[3]]\n[1] NA"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#section-8",
+    "href": "presentaciones/programacion.html#section-8",
+    "title": "Programación y reproducibilidad",
+    "section": "",
+    "text": "con argumentos adicionales\n\n# aplicar la función \"mean\" a cada elemento\nmap(rasgos,mean,na.rm=TRUE)\n\n[[1]]\n[1] 4201.754\n\n[[2]]\n[1] 43.92193\n\n[[3]]\n[1] 200.9152"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#aplicar-funciones-personalizadas-iterativamente",
+    "href": "presentaciones/programacion.html#aplicar-funciones-personalizadas-iterativamente",
+    "title": "Programación y reproducibilidad",
+    "section": "Aplicar funciones personalizadas iterativamente",
+    "text": "Aplicar funciones personalizadas iterativamente\n\n\n# obtener min, max, y la diferencia\nresumenMMR &lt;- function(x){\n  min_x &lt;- min(x,na.rm = TRUE)\n  max_x &lt;- max(x,na.rm = TRUE)\n  maxmin &lt;- max_x - min_x\n  c(min_x, max_x, maxmin)\n}"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#probar-con-vectores",
+    "href": "presentaciones/programacion.html#probar-con-vectores",
+    "title": "Programación y reproducibilidad",
+    "section": "Probar con vectores",
+    "text": "Probar con vectores\n\n\nresumenMMR(masa)\n\n[1] 2700 6300 3600\n\nresumenMMR(aleta)\n\n[1] 172 231  59"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#map-para-aplicar-nuestra-función-a-la-lista",
+    "href": "presentaciones/programacion.html#map-para-aplicar-nuestra-función-a-la-lista",
+    "title": "Programación y reproducibilidad",
+    "section": "map() para aplicar nuestra función a la lista",
+    "text": "map() para aplicar nuestra función a la lista\n\n\n\n\n\n\n\n\n\nSolo usamos el nombre de la función\n\n\n\n\n\nmap(.x = rasgos, .f = resumenMMR)\n\n[[1]]\n[1] 2700 6300 3600\n\n[[2]]\n[1] 32.1 59.6 27.5\n\n[[3]]\n[1] 172 231  59"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#map-con-salidas-específicas",
+    "href": "presentaciones/programacion.html#map-con-salidas-específicas",
+    "title": "Programación y reproducibilidad",
+    "section": "map() con salidas específicas",
+    "text": "map() con salidas específicas\nmap() regresa listas\nmap_lgl() regresa un vector T/F\nmap_int() regresa un vector numérico\nmap_dbl() regresa un vector numércico (con decimales)\nmap_chr() regresa un vector de caracteres\nmap_df() junta todo en un data frame"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#section-10",
+    "href": "presentaciones/programacion.html#section-10",
+    "title": "Programación y reproducibilidad",
+    "section": "",
+    "text": "# regresa una lista\nmap(rasgos, median, na.rm = TRUE)\n\n[[1]]\n[1] 4050\n\n[[2]]\n[1] 44.45\n\n[[3]]\n[1] 197\n\n# aplana la lista en un vector\nmap_dbl(rasgos, median, na.rm = TRUE)\n\n[1] 4050.00   44.45  197.00"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#map-con-funciones-anónimas",
+    "href": "presentaciones/programacion.html#map-con-funciones-anónimas",
+    "title": "Programación y reproducibilidad",
+    "section": "map() con funciones anónimas",
+    "text": "map() con funciones anónimas\nFunciones que podemos escribir dentro de map() sin definir\n\n\nMike Cheng (2019)\nAnonymous Functions in R - Part 1"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#section-11",
+    "href": "presentaciones/programacion.html#section-11",
+    "title": "Programación y reproducibilidad",
+    "section": "",
+    "text": "Mismo comportamiento\n\n\nlistaNums &lt;- list(c(5:10),c(20:27))\n# función anónima\nmap(listaNums, function(x) x+2)\n# fórmula\nmap(listaNums, ~ .x + 2)\n# notación 'nueva'\nmap(listaNums,\\(x) x+2)"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#importando-o-escribiendo-muchos-archivos",
+    "href": "presentaciones/programacion.html#importando-o-escribiendo-muchos-archivos",
+    "title": "Programación y reproducibilidad",
+    "section": "Importando o escribiendo muchos archivos",
+    "text": "Importando o escribiendo muchos archivos\nmap(.x,.f)\n.x puede ser una lista o vector de rutas de archivo\n.f puede ser una función que lee o escribe archivos\n\n📄📄📄📄📄📄📄📄📄"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#ejercicio",
+    "href": "presentaciones/programacion.html#ejercicio",
+    "title": "Programación y reproducibilidad",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nCrear una carpeta llena de archivos de texto\n\ncargar el archivo resultados_21k.csv\nagrupar los datos por localidad y crear una lista de data frames con una para cada localidad\ncrear un vector con los nombres de las localidades\n\n\n\n\n\n\n\n\n\n\n😲 es posible iterar con dos inputs en paralelo"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#map-con-dos-inputs",
+    "href": "presentaciones/programacion.html#map-con-dos-inputs",
+    "title": "Programación y reproducibilidad",
+    "section": "map() con dos inputs",
+    "text": "map() con dos inputs\nmap2(.x, .y, .f)\nAmbas listas of vectores de entrada se le pasan como argumentos a la función .f\n\n\n\nAltman et al. (2021)\nMap with multiple inputs"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#ejercicio---carpeta-con-archivos",
+    "href": "presentaciones/programacion.html#ejercicio---carpeta-con-archivos",
+    "title": "Programación y reproducibilidad",
+    "section": "Ejercicio - Carpeta con archivos",
+    "text": "Ejercicio - Carpeta con archivos\n\ncrear una carpeta “resultados21k”\nusar here() para crear rutas estables y porátiles para cada localidad, por ejemplo: here(\"datos\",\"resultados21k\",\"Usaquen\"), teniendo en cuante que here() es una función vectorizada\npasar la lista de data frames y el vector de rutas a write_csv de readr o write.csv de R base\n\n🔥🏃🔥"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#ejercicio---importando-varios-archivos-a-la-vez",
+    "href": "presentaciones/programacion.html#ejercicio---importando-varios-archivos-a-la-vez",
+    "title": "Programación y reproducibilidad",
+    "section": "Ejercicio - Importando varios archivos a la vez",
+    "text": "Ejercicio - Importando varios archivos a la vez\n\nusar dir_ls() para crear un vector con las rutas de los archivos creados en el paso anterior\nimportar cada elemento de este vector con map() y read_csv() de readr\nusar funciones con regresos específicos para terminar con la tabla inicial"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#programando-eficientemente",
+    "href": "presentaciones/programacion.html#programando-eficientemente",
+    "title": "Programación y reproducibilidad",
+    "section": "Programando eficientemente",
+    "text": "Programando eficientemente\nCtrl == ⌘ Command && Alt == ⌥ Option\n\ncursor multilinea (ctrl+alt+arriba) o (ctrl+alt+abajo)\nquitar con esc"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#atajos-de-teclado",
+    "href": "presentaciones/programacion.html#atajos-de-teclado",
+    "title": "Programación y reproducibilidad",
+    "section": "Atajos de teclado",
+    "text": "Atajos de teclado\n\npanel de atajos (alt+shift+k)\ninsertar ‘pipe’ (ctrl+shift+m)\noperador de asignación (alt+-)\narrastrar línea (alt+up) or (alt+down)\nejecutar línea (ctrl+enter)\nindentar o ‘desindentar’ selección (tab y shift+tab)\nconvertir selección a comentario (ctrl + shift + c)\n\n\n\nRStudio Shortcuts and Tips (2021)"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#atajos-útiles",
+    "href": "presentaciones/programacion.html#atajos-útiles",
+    "title": "Programación y reproducibilidad",
+    "section": "Atajos útiles",
+    "text": "Atajos útiles\n\nCambiar enfoque entre paneles\n\n(ctrl+1 hasta 8)\nMaximizar paneles con (ctrl+shift+1 hasta 8)"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#más-atajos",
+    "href": "presentaciones/programacion.html#más-atajos",
+    "title": "Programación y reproducibilidad",
+    "section": "Más atajos",
+    "text": "Más atajos\nModificar selección ctrl+alt+shift+m\nPara acceder a la documentación ? o F1\nAbriendo objetos en el visualizador\nctrl + click\nAbrir el directorio de trabajo\nshell.exec(getwd()) en Windows y en Linux browseURL(getwd())"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#práctica",
+    "href": "presentaciones/programacion.html#práctica",
+    "title": "Programación y reproducibilidad",
+    "section": "Práctica",
+    "text": "Práctica\nExploremos la diversidad de paquetes que hay en CRAN hoy mismo:\n\nlibrary(dplyr)\nlibrary(stringr)\np_db &lt;- tools::CRAN_package_db()\np_db &lt;- p_db %&gt;% select(Package, Author, Description, Title)"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#annotater",
+    "href": "presentaciones/programacion.html#annotater",
+    "title": "Programación y reproducibilidad",
+    "section": "📦 annotater",
+    "text": "📦 annotater\nAgregar detalles sobre los paquetes que estamos mencionando en nuestros scripts\nFuente y versión\n\nlibrary(dplyr)   # CRAN v1.0.7\nlibrary(janitor) # CRAN v2.1.0\n\nTítulo, fuente y versión\n\nlibrary(readr) # Read Rectangular Text Data, CRAN v2.0.2\n\n\nTambién podemos anotar cuáles funciones o datos de c/ paquete estamos usando"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#littleboxes",
+    "href": "presentaciones/programacion.html#littleboxes",
+    "title": "Programación y reproducibilidad",
+    "section": "📦 littleboxes",
+    "text": "📦 littleboxes\nCajas para títulos\n\n##%##################################################%##\n#                                                      #\n####    Mi análisis en R ,  Luis, Oct 2022          ####\n#                                                      #\n##%##################################################%##"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#packup",
+    "href": "presentaciones/programacion.html#packup",
+    "title": "Programación y reproducibilidad",
+    "section": "📦 packup",
+    "text": "📦 packup\nhttps://github.com/MilesMcBain/packup\nAcomoda los llamados a library() al principio del archivo, quitando duplicados y ordenando alfabéticamente.\n\nEl orden alfabético puede no ser adecuado"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#secciones-de-código-y-el-esquema-de-documento",
+    "href": "presentaciones/programacion.html#secciones-de-código-y-el-esquema-de-documento",
+    "title": "Programación y reproducibilidad",
+    "section": "Secciones de código y el esquema de documento",
+    "text": "Secciones de código y el esquema de documento\n\n# Mi sección nueva ------------------------------------ \n\nDividir un script en segmentos discretos\nLas secciones se pueden colapsar y funcionan con el panel de navegación del editor de fuente.\n\nCrear con cuatro guiones después de un comentario\nInsertar con ctrl + shift + R"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#utilidades-geniales",
+    "href": "presentaciones/programacion.html#utilidades-geniales",
+    "title": "Programación y reproducibilidad",
+    "section": "Utilidades geniales",
+    "text": "Utilidades geniales\n📦 datapasta\nCopiar y pegar datos desde y hacia R, manipular vectores"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#resetear",
+    "href": "presentaciones/programacion.html#resetear",
+    "title": "Programación y reproducibilidad",
+    "section": "1 - Resetear",
+    "text": "1 - Resetear\nReiniciar R (limpia la ruta de búsqueda, “desprende” objetos, regresa opciones a sus valores predeterminados)\n\n\n\n\n\n\n\n\n\nsearch path: los entornos que definen los objetos y funciones a los que podemos acceder desde el entorno de trabajo global\n\n\n\nprueba\n(e.g. Sys.setenv(LANGUAGE=\"ko\"))"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#reprex-ejemplos-reproducibles",
+    "href": "presentaciones/programacion.html#reprex-ejemplos-reproducibles",
+    "title": "Programación y reproducibilidad",
+    "section": "2 - Reprex (ejemplos reproducibles)",
+    "text": "2 - Reprex (ejemplos reproducibles)\nCrear el ejemplo más simple posible que genere el mismo error para poder confimar o resolver algún problema\n\n\nJenny Bryan (2020)\nObject of type ‘closure’ is not subsettable"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#errores-comunes",
+    "href": "presentaciones/programacion.html#errores-comunes",
+    "title": "Programación y reproducibilidad",
+    "section": "Errores comunes",
+    "text": "Errores comunes\n\npaquetes sin cargar o cargados en desorden (search path)\noperadores cambiados, signos\nespacios, paréntesis, o comas de más o de menos\npasos en desorden"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#opciones-útiles",
+    "href": "presentaciones/programacion.html#opciones-útiles",
+    "title": "Programación y reproducibilidad",
+    "section": "Opciones útiles",
+    "text": "Opciones útiles\n\nEstudiar los mensajes de error más comunes\n\n\n\nEmily Jennings-Dobbs (2021)\nCommon Errors in R\n\n\n\nCorrer los ejemplos disponibles con la ayuda y comparar con nuestro código"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#otras-personas",
+    "href": "presentaciones/programacion.html#otras-personas",
+    "title": "Programación y reproducibilidad",
+    "section": "Otras personas",
+    "text": "Otras personas\nPosit Community\nGrupos de usuarios locales o de RLadies\nStackOverflow\nTwitter u otras redes sociales\nGitHub - issues (cerrados o abiertos)"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#modales",
+    "href": "presentaciones/programacion.html#modales",
+    "title": "Programación y reproducibilidad",
+    "section": "🧐 Modales!",
+    "text": "🧐 Modales!\n\n\nIf you are looking for help with an #rstats problem, I recommend that you🎯do not email an individual author or OSS maintainer🎯create a reprex demonstrating your problem (naturally none in this email)🎯post on a public forum like RStudio Community or Stack Overflow\n\n— Julia Silge (@juliasilge) January 2, 2022"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#ejemplos-reproducibles",
+    "href": "presentaciones/programacion.html#ejemplos-reproducibles",
+    "title": "Programación y reproducibilidad",
+    "section": "Ejemplos reproducibles",
+    "text": "Ejemplos reproducibles\n\n¿Podemos reproducir nuestro error con un ejemplo simple y concreto?\n\n\n\nAyudemos a otros a que nos puedan ayudar, permitiendo que otros puedan llegar al mismo problema en sus propias máquinas\nUsar datos preinstalados o crear datos simples de 0"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#un-buen-reprex",
+    "href": "presentaciones/programacion.html#un-buen-reprex",
+    "title": "Programación y reproducibilidad",
+    "section": "Un buen ‘reprex’",
+    "text": "Un buen ‘reprex’\n\nProveer datos (mientras más simple mejor)\n\nNo ir más allá de lo mínimo necesario para recrear el problema\nNo truncar posibles fuentes de error\n\nMostrar qué paquetes se están usando\n\nIncluir versiones puede ayudar\n\n\nSe puede copiar, pegar y ejecutar fácilmente\nNo hace daño"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#reprex",
+    "href": "presentaciones/programacion.html#reprex",
+    "title": "Programación y reproducibilidad",
+    "section": "📦 {reprex}",
+    "text": "📦 {reprex}\nMuestra el input y su salida juntos\n\ncopiar código al portapapeleles\nejecutar reprex()\nel ejemplo está listo para pegar en donde necesitmos compartir nuestra duda\n\n\nLa salida de reprex está diseñana para que la vean otras personas\n\n\n\nJD Long\n📼 How Reproducible Examples are the Secret to Faster Learning & Faster Code"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#creando-un-reprex",
+    "href": "presentaciones/programacion.html#creando-un-reprex",
+    "title": "Programación y reproducibilidad",
+    "section": "Creando un reprex",
+    "text": "Creando un reprex\n\nlibrary(ggplot2)\nset.seed(23)\nmis_datos &lt;- data.frame(\n  sitio= sample(c(\"A\",\"B\",\"C\"),100,replace = TRUE),\n  valor_A = rnorm(100),\n  valor_B= rnorm(100,mean = 30,sd=10))\n\nhead(mis_datos)\n\nggplot(mis_datos)+\n  geom_point(aes(medida_A,medida_B))"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#búsquedas-web",
+    "href": "presentaciones/programacion.html#búsquedas-web",
+    "title": "Programación y reproducibilidad",
+    "section": "Búsquedas web",
+    "text": "Búsquedas web\nNadie sabe todo de memoria y hay que saber buscar en línea\n\nAprender a usar funciones avanzadas en los buscadores populares “Google-fu”\nConocer la terminología general\n“R subset rows partial match”\nHacer búsquedas amplias (ej: no buscar partes de un mensaje que error que a nadie más le aparecerían)\n\nError: object ‘tesis_luis_23w-final’ not found"
+  },
+  {
+    "objectID": "presentaciones/programacion.html#cuáles-soluciones-son-mejores-útiles",
+    "href": "presentaciones/programacion.html#cuáles-soluciones-son-mejores-útiles",
+    "title": "Programación y reproducibilidad",
+    "section": "¿Cuáles soluciones son mejores útiles?",
+    "text": "¿Cuáles soluciones son mejores útiles?\n\n¿Hace falta limitar los resultados temporalmente?\nSoluciones para diferentes dialectos\nSort (order) data frame rows by multiple columns\n(StackOverflow - 2009, 1.4 M visitas)\nEstar al pendiente de miembros activos que ayudan a otros"
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#subconjuntos-de-columnas-con",
+    "href": "presentaciones/preparacion.html#subconjuntos-de-columnas-con",
+    "title": "Preparación de datos",
+    "section": "Subconjuntos de columnas con $",
+    "text": "Subconjuntos de columnas con $\n\nmi_df &lt;- data.frame(letras=c(\"A\",\"B\",\"C\"),\n                 nums=c(4,5,6))\nmi_df$let\n\n[1] \"A\" \"B\" \"C\"\n\nmi_tib &lt;- tibble(letras=c(\"A\",\"B\",\"C\"),\n                 nums=c(4,5,6))\nmi_tib$let\n\nNULL\n\nmi_tib$letras\n\n[1] \"A\" \"B\" \"C\""
+  },
+  {
+    "objectID": "presentaciones/preparacion.html#pipes-paips",
+    "href": "presentaciones/preparacion.html#pipes-paips",
+    "title": "Preparación de datos",
+    "section": "Pipes (/paips/)",
+    "text": "Pipes (/paips/)\nSi queremos hacer varias operaciones en secuencia:\n\n\nCódigo anidado (los resultados se evalúan de adentro hacia afuera)\nObjetos intermedios (creamos objetos con resultados intermedios y para la siguiente función en la secuencia)\nPipes (estructuramos operaciones seriadas de izquierda a derecha)"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#stringr---ejemplos-output",
+    "href": "presentaciones/expresiones-regulares.html#stringr---ejemplos-output",
+    "title": "Expresiones regulares",
+    "section": "stringr - ejemplos",
+    "text": "stringr - ejemplos\n\n[1]  TRUE  TRUE FALSE"
+  },
+  {
+    "objectID": "presentaciones/expresiones-regulares.html#stringr---más-ejemplos-output",
+    "href": "presentaciones/expresiones-regulares.html#stringr---más-ejemplos-output",
+    "title": "Expresiones regulares",
+    "section": "stringr - más ejemplos",
+    "text": "stringr - más ejemplos\n\n[1] 1 2"
+  }
+]

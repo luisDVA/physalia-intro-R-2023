@@ -1,0 +1,22 @@
+---
+title: "Demostración de geom_point"
+author: "Luis"
+format: 
+  html:
+    theme: solar
+highlight-style: dracula
+---
+
+## Figura con `geom_point`
+
+Largo de aleta vs masa corporal
+
+```{r}
+#| warning: false 
+library(datos)
+library(ggplot2)
+ggplot(pinguinos,aes(largo_aleta_mm,masa_corporal_g))+geom_point()
+```
+
+y aquí hay una imagen
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_(Pygoscelis_antarctica)04.jpg/1200px-South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin(Pygoscelis_antarctica)_04.jpg)

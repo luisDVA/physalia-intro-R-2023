@@ -1,0 +1,15 @@
+---
+title: "Introducción práctica a la programación en R"
+toc: false
+---
+
+## Cursos Physalia 
+
+### Virtual - 28 al 31 de agosto de 2023
+
+Este sitio contiene los materiales prácticos y las presentaciones para todos los temas. Se actualizará diariamiente durante la semana del curso.
+
+![](presentaciones/imgs/courseImage.jpg){width="50%" fig-align="center"}
+
+## Imparte:
+Dr. Luis D. Verde Arregoitia
